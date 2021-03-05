@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ko">
 
   <head>
   <meta charset="utf-8">
@@ -64,7 +64,7 @@
   
   
   
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="ko">
   <meta property="og:site_name" content="Deepcell 딥러닝 블로그">
   <meta property="og:title" content="Migrate from Jekyll">
   <meta property="og:type" content="article">
@@ -114,12 +114,12 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
                     <img src="/img/deepcell.png" alt="Migrate from Jekyll logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Migrate from Jekyll logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Migrate from Jekyll - go to homepage</span>
+                    <img src="/img/deepcell.png" alt="Migrate from Jekyll logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Migrate from Jekyll - 홈으로</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Toggle Navigation</span>
+                      <span class="sr-only">네비게이션전화</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -354,7 +354,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "devcows" + '.disqus.com/embed.js';
+        s.src = '//' + "starcell-github-io.disqus.com" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -380,13 +380,13 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <div class="panel panel-default sidebar-menu">
 
     <div class="panel-heading">
-      <h3 class="panel-title">Search</h3>
+      <h3 class="panel-title">검색</h3>
     </div>
 
     <div class="panel-body">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
             <div class="input-group">
-                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="search" name="q" class="form-control" placeholder="검색">
                 <input type="hidden" name="sitesearch" value="https://starcell.github.io/">
                 <span class="input-group-btn">
                     <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
@@ -405,7 +405,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <div class="panel panel-default sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Categories</h3>
+        <h3 class="panel-title">카테고리</h3>
     </div>
 
     <div class="panel-body">
@@ -443,7 +443,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <div class="panel sidebar-menu">
 
     <div class="panel-heading">
-        <h3 class="panel-title">Tags</h3>
+        <h3 class="panel-title">태그</h3>
     </div>
 
     <div class="panel-body">
@@ -504,7 +504,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
         
         <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
+            <h4>이 사이트에 대하여</h4>
 
             <p>(주)스타셀/Starcell Inc.</p>
 
@@ -517,7 +517,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
         <div class="col-md-4 col-sm-6">
 
              
-            <h4>Recent posts</h4>
+            <h4>최근게시물</h4>
 
             <div class="blog-entries">
                 
@@ -571,7 +571,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
         
         <div class="col-md-4 col-sm-6">
 
-          <h4>Contact</h4>
+          <h4>연락처 주소</h4>
 
             <p class="text-uppercase"><strong>Starcell Inc.</strong>
         <br>#415
@@ -583,7 +583,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
       </p>
       
 
-            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+            <a href="/contact" class="btn btn-small btn-template-main">연락처</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -608,10 +608,10 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             <p class="pull-left">Copyright (c) 2004 - 2021, (주)스타셀/Starcell Inc.; all rights reserved.</p>
             
             <p class="pull-right">
-              Template by <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              템플릿 <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
               
 
-              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+              Hugo에 의한 생성 <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
             </p>
         </div>
     </div>
