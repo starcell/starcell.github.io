@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Deepcell 딥러닝 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 09 Mar 2021 11:30:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 15:39:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cluster</title>
+      <link>https://starcell.github.io/tags/cluster/</link>
+      <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/cluster/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>container</title>
       <link>https://starcell.github.io/tags/container/</link>
-      <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
+      <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/container/</guid>
       <description></description>
@@ -19,9 +28,18 @@
     <item>
       <title>deep learning</title>
       <link>https://starcell.github.io/tags/deep-learning/</link>
-      <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
+      <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://starcell.github.io/tags/kubernetes/</link>
+      <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -103,15 +121,6 @@
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
       <guid>https://starcell.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://starcell.github.io/tags/hugo/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://starcell.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
