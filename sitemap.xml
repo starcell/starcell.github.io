@@ -3,34 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://starcell.github.io/blog/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/categories/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/container/</loc>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/deep-learning/</loc>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/blog/2021/03/09/fstack/</loc>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
-    <loc>https://starcell.github.io/tags/golang/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://starcell.github.io/categories/fstack/</loc>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
-    <loc>https://starcell.github.io/tags/hugo/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/tags/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://starcell.github.io/tags/image/</loc>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/tags/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
-    <loc>https://starcell.github.io/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://starcell.github.io/tags/tensorflow/</loc>
+    <lastmod>2021-03-09T11:30:46+09:00</lastmod>
   </url><url>
-    <loc>https://starcell.github.io/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://starcell.github.io/tags/ai/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/coding/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/programming/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/%EB%94%A5%EB%9F%AC%EB%8B%9D/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/blog/2021/03/09/introto-deepcell-blog/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/categories/%EC%9D%BC%EB%B0%98/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/%EC%BD%94%EB%94%A9/</loc>
+    <lastmod>2021-03-09T10:30:20+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
@@ -38,17 +62,17 @@
     <loc>https://starcell.github.io/blog/2015/09/17/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
+    <loc>https://starcell.github.io/categories/programming/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/hugo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url><url>
     <loc>https://starcell.github.io/blog/2015/08/03/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/contact/</loc>
   </url><url>

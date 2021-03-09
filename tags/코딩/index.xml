@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>코딩 on Deepcell 딥러닝 블로그</title>
+    <link>https://starcell.github.io/tags/%EC%BD%94%EB%94%A9/</link>
+    <description>Recent content in 코딩 on Deepcell 딥러닝 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 09 Mar 2021 10:30:20 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/%EC%BD%94%EB%94%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>딥러닝 기술 블로그</title>
+      <link>https://starcell.github.io/blog/2021/03/09/introto-deepcell-blog/</link>
+      <pubDate>Tue, 09 Mar 2021 10:30:20 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/blog/2021/03/09/introto-deepcell-blog/</guid>
+      <description>스타셀이 운영하는 딥러닝 기술 블로그입니다.
+이 블로그에서는 딥러닝을 시작하려는 사람들에게 필요한 정보를 제공하려고 합니다. 주로 딥러닝에 대한 기본 지식, 딥러닝 연구 개발을 위한 시스템 환경 설정 방법, 딥러닝을 위한 시스템에 대한 지식, 그리고 딥러닝에 필요한 사전 지식 특히 파이썬 코딩에 대한 내용들을 다루려고 합니다.
+딥러닝 기본 인공지능 기술 중 현재 가장 핫한 기술인 딥러닝에 대하여 기술적으로 이해하는데 필요한 기본 지식을 다룹니다. 딥러닝의 기본 원리, 딥러닝에서 사용되는 알고리즘과 방법들, 딥러닝을 하기위해 필요한 도구들, 딥러닝 관련한 새로운 소식들에 대해 다룹니다.</description>
+    </item>
+    
+  </channel>
+</rss>

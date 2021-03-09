@@ -6,11 +6,29 @@
     <description>Recent content in Categories on Deepcell 딥러닝 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate><atom:link href="https://starcell.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 11:30:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fstack</title>
+      <link>https://starcell.github.io/categories/fstack/</link>
+      <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/categories/fstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>일반</title>
+      <link>https://starcell.github.io/categories/%EC%9D%BC%EB%B0%98/</link>
+      <pubDate>Tue, 09 Mar 2021 10:30:20 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/categories/%EC%9D%BC%EB%B0%98/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>programming</title>
       <link>https://starcell.github.io/categories/programming/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
       <guid>https://starcell.github.io/categories/programming/</guid>
       <description></description>
@@ -22,15 +40,6 @@
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
       <guid>https://starcell.github.io/categories/pseudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>starting</title>
-      <link>https://starcell.github.io/categories/starting/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://starcell.github.io/categories/starting/</guid>
       <description></description>
     </item>
     
