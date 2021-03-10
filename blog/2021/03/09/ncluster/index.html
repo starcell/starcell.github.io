@@ -205,60 +205,30 @@
                         
 
                         <div id="post-content">
-                          <h2 id="쿠버네티스kubernetes">쿠버네티스(kubernetes)</h2>
-<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
-appropriate version for your os and architecture.</p>
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-<p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p>
-<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-<p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.</p>
-<p>Follow the following steps:</p>
-<ol>
-<li>Clone the <a href="http://github.com/spf13/hugo">hugo repository</a></li>
-<li>Go into the repo</li>
-<li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to http://localhost:1313</li>
-</ol>
-<p>Corresponding pseudo commands:</p>
-<pre><code>git clone https://github.com/spf13/hugo
-cd hugo
-/path/to/where/you/installed/hugo server --source=./docs
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
-<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
-<p>Stop the Hugo process by hitting ctrl+c.</p>
-<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
-<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
-content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
-<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-<code>docs/content/overview/quickstart.md</code>.</p>
-<p>Change and save this file.. Notice what happened in your terminal.</p>
-<pre><code>&gt; Change detected, rebuilding site
-
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 26 ms
-</code></pre>
-<p>Refresh the browser and observe that the typo is now fixed.</p>
-<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
-<h2 id="step-4-have-fun">Step 4. Have fun</h2>
-<p>The best way to learn something is to play with it.</p>
+                          <h1 id="딥셀-엔클러스터deepcell-ncluster">딥셀 엔클러스터(Deepcell ncluster)</h1>
+<p>딥셀 엔클러스터(Deepcell ncluster)는 컨테이너 클러스터를 구축하기 위한 패키지 소프트웨어입니다. 딥셀 엔클러스터를 이용하면 여러 대의 서버 클러스터에서 필요에 따라 다양한 컨테이너(pod)를 손쉽게 만들어 사용할 수 있습니다. 특히 다중 사용자들이 사용해야 하는 딥러닝을 위한 분산 컴퓨팅 환경을 구축하기 위한 최적의 솔루션을 제공합니다.<br>
+딥셀 엔클러스는 내부적으로 가장 많이 사용되는 컨테이너 솔루션인 Docker와 Kubernetes를 사용함으로써 안정성와 관리 용이성이 보장됩니다.</p>
+<h2 id="컨테이너container">컨테이너(container)</h2>
+<p>컨테이너는 시스템 가상화의 한 방법으로 한대의 서버를 여러 대처럼 사용할 수 있는 솔루션입니다. 가상머신과는 다르게 별도의 OS를 사용하지 않고 독립적인 가상시스템 공간을 제공하는 기술로서 성능 오버헤드가 없습니다. 현재 가장 많이 사용되는 제품으로는 <a href="https://www.docker.com/">도커(Docker)</a>가 있습니다. 컨테이너는 다음과 같은 장점이 있습니다.</p>
+<ul>
+<li>서버에 오버헤드 없이 여러 개의 가상 시스템을 운영할 수 있습니다.</li>
+<li>종속성과 호환성 충돌 문제를 제거하는데 유용합니다.</li>
+<li>개발환경을 그대로 라이브 환경으로 배포할 수 있습니다.</li>
+<li>부팅없이 즉시 실행 가능합니다.</li>
+<li>작고 가벼우므로 배포가 빠르고 쉽습니다.</li>
+<li>사용 후 쉽게 삭제하고 재사용할 수 있습니다.</li>
+<li>서버나 가상머신 클라우드에 모두 설치 가능합니다.</li>
+</ul>
+<h2 id="쿠버네티스kubernetes">쿠버네티스(kubernetes)</h2>
+<p><a href="https://kubernetes.io/ko/">쿠버네티스(kubernetes)</a>는 구글이 만든 컨테이너 클러스터를 쉽게 만들고 관리할 수 있게 해주는 소프트웨어입니다. 쿠버네티스를 사용하면 여러 대의 서버를 하나의 클러스터로 묶어서 컨테이너 플랫폼으로 구성하여 많의 수의 컨테이너들을 쉽게 만들어 사용할 수 있습니다. 쿠버네티스를 이용하여 컨테이너 클러스터를 구성하면 다음과 같은 이점을 얻을 수 있습니다.</p>
+<ul>
+<li>전체 시스템 관리 효율을 높일 수 있습니다.</li>
+<li>소수의 서버를 여러 대처럼 활용할 수 있습니다.</li>
+<li>하드웨어의 활용도를 높일 수 있습니다.</li>
+<li>애플리케이션의 상태확인과 자가 치유기능을 이용할 수 있습니다.</li>
+<li>시스템 중단 없이 필요한 부분만 쉽게 확장할 수 있습니다.</li>
+<li>사내 시스템과 클라우드 서비스를 통합하여 사용할 수 있습니다.</li>
+</ul>
 
                         </div>
                         
@@ -336,6 +306,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
             
             
             <li>
+                <a href="/categories/ccrs">ccrs (1)</a>
+            </li>
+            
+            <li>
                 <a href="/categories/fstack">fstack (1)</a>
             </li>
             
@@ -345,10 +319,6 @@ Having nearly instant feedback enables you to have your creativity flow without 
             
             <li>
                 <a href="/categories/ncluster">ncluster (1)</a>
-            </li>
-            
-            <li>
-                <a href="/categories/programming">programming (1)</a>
             </li>
             
             <li>
@@ -398,7 +368,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
             </li>
             
             <li>
-                <a href="/tags/go"><i class="fas fa-tags"></i> go</a>
+                <a href="/tags/hardware"><i class="fas fa-tags"></i> hardware</a>
             </li>
             
             <li>
@@ -415,6 +385,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
             
             <li>
                 <a href="/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li>
+                <a href="/tags/system"><i class="fas fa-tags"></i> system</a>
             </li>
             
             <li>
@@ -482,6 +456,19 @@ Having nearly instant feedback enables you to have your creativity flow without 
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/10/ccrs/">
+                          
+                            <img src="/img/banners/banner-2.jpg" class="img-responsive" alt="CCRS(Container Cluster Ready System)">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/10/ccrs/">CCRS(Container Cluster Ready System)</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
                         <a href="https://starcell.github.io/blog/2021/03/09/ncluster/">
                           
                             <img src="/img/banners/banner-3.jpg" class="img-responsive" alt="Deepcell ncluster">
@@ -503,19 +490,6 @@ Having nearly instant feedback enables you to have your creativity flow without 
                     </div>
                     <div class="name same-height-always">
                         <h5><a href="https://starcell.github.io/blog/2021/03/09/fstack/">Deepcell fstack</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://starcell.github.io/blog/2021/03/09/introto-deepcell-blog/">
-                          
-                            <img src="/img/banners/banner-4.jpg" class="img-responsive" alt="딥러닝 기술 블로그">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://starcell.github.io/blog/2021/03/09/introto-deepcell-blog/">딥러닝 기술 블로그</a></h5>
                     </div>
                 </div>
                 
