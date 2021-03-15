@@ -8,17 +8,17 @@
     <language>ko</language>
     <lastBuildDate>Wed, 10 Mar 2021 16:47:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/cluster/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CCRS(Container Cluster Ready System)</title>
+      <title>딥셀 CCRS</title>
       <link>https://starcell.github.io/blog/2021/03/10/ccrs/</link>
       <pubDate>Wed, 10 Mar 2021 16:47:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/blog/2021/03/10/ccrs/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <description>딥셀 CCRS(Container Cluster Ready System) 딥셀 CCRS는 난이도 높은 컨테이너 클러스터 구축 문제를 해결해주는 토탈솔루션입니다. 이 제품에는 하드웨어부터 소프트웨어와 서비스까지 필요한 모든 것이 포함되어 있습니다. Deepcell은 신뢰성 높은 인텔의 하드웨어를 기반으로 하고, 사실상의 표준인 Docker와 Kubernetes 소프트웨어와 필수 플러그인들로 구성되었습니다. 그리고 초기 사용을 위한 컨테이너 지원 서비스와 운영 교육 서비스를 제공하여 고객이 손쉽게 컨테이너 클러스터를 이용할 수 있도록 합니다.
+딥셀 CCRS H/W 딥셀 CCRS의 하드웨어는 Intel Xeon Scalable CPU를 장착한 Intel Server를 표준으로 합니다.</description>
     </item>
     
     <item>
-      <title>Deepcell ncluster</title>
+      <title>딥셀 엔클러스터</title>
       <link>https://starcell.github.io/blog/2021/03/09/ncluster/</link>
       <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
       

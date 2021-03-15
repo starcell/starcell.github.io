@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Deepcell 딥러닝 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 10 Mar 2021 16:47:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 17:00:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>system</title>
+      <link>https://starcell.github.io/categories/system/</link>
+      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/categories/system/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ccrs</title>
       <link>https://starcell.github.io/categories/ccrs/</link>
@@ -40,15 +49,6 @@
       <pubDate>Tue, 09 Mar 2021 10:30:20 +0900</pubDate>
       
       <guid>https://starcell.github.io/categories/%EC%9D%BC%EB%B0%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lorem</title>
-      <link>https://starcell.github.io/categories/lorem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://starcell.github.io/categories/lorem/</guid>
       <description></description>
     </item>
     

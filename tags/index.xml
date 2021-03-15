@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Deepcell 딥러닝 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 10 Mar 2021 16:47:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 17:00:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://starcell.github.io/tags/ai/</link>
+      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://starcell.github.io/tags/deep-learning/</link>
+      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpu</title>
+      <link>https://starcell.github.io/tags/gpu/</link>
+      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RTX 3090</title>
+      <link>https://starcell.github.io/tags/rtx-3090/</link>
+      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/rtx-3090/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cluster</title>
       <link>https://starcell.github.io/tags/cluster/</link>
@@ -53,15 +89,6 @@
     </item>
     
     <item>
-      <title>deep learning</title>
-      <link>https://starcell.github.io/tags/deep-learning/</link>
-      <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>image</title>
       <link>https://starcell.github.io/tags/image/</link>
       <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
@@ -76,15 +103,6 @@
       <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/tensorflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://starcell.github.io/tags/ai/</link>
-      <pubDate>Tue, 09 Mar 2021 10:30:20 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -130,15 +148,6 @@
       <pubDate>Tue, 09 Mar 2021 10:30:20 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/%EC%BD%94%EB%94%A9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ipsum</title>
-      <link>https://starcell.github.io/tags/ipsum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://starcell.github.io/tags/ipsum/</guid>
       <description></description>
     </item>
     
