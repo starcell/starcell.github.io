@@ -6,20 +6,38 @@
     <description>Recent content in Tags on Deepcell 딥러닝 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 15 Mar 2021 17:00:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 13:05:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://starcell.github.io/tags/ai/</link>
-      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>bench</title>
+      <link>https://starcell.github.io/tags/bench/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/bench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>benchmark</title>
+      <link>https://starcell.github.io/tags/benchmark/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/benchmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>deep learning</title>
       <link>https://starcell.github.io/tags/deep-learning/</link>
-      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/deep-learning/</guid>
       <description></description>
@@ -28,18 +46,54 @@
     <item>
       <title>gpu</title>
       <link>https://starcell.github.io/tags/gpu/</link>
-      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/gpu/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>RTX 2080</title>
+      <link>https://starcell.github.io/tags/rtx-2080/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/rtx-2080/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RTX 3080</title>
+      <link>https://starcell.github.io/tags/rtx-3080/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/rtx-3080/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>RTX 3090</title>
       <link>https://starcell.github.io/tags/rtx-3090/</link>
-      <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/rtx-3090/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TITAN RTX</title>
+      <link>https://starcell.github.io/tags/titan-rtx/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/titan-rtx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>벤치마크</title>
+      <link>https://starcell.github.io/tags/%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC/</guid>
       <description></description>
     </item>
     

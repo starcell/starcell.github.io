@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bench on Deepcell 딥러닝 블로그</title>
+    <link>https://starcell.github.io/tags/bench/</link>
+    <description>Recent content in bench on Deepcell 딥러닝 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 16 Mar 2021 13:05:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/bench/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU 벤치마크</title>
+      <link>https://starcell.github.io/blog/2021/03/16/gpu-benchmark/</link>
+      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/blog/2021/03/16/gpu-benchmark/</guid>
+      <description>딥러닝 위한 GPU 벤치마크 딥러닝용 GPU 벤치마크 자료가 있어서 정리해 봅니다. 딥러닝 시스템에 도움이 되기를 바랍니다.
+1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16) 미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다. 원 글의 제목은 &amp;ldquo;2020-2021년 딥러닝에 가장 좋은 GPU&amp;quot;입니다. 아래 링크에 원문이 있습니다.
+https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-titan-rtx-vs-rtx-2080-ti
+간단히 요약해 보겠습니다.
+ 벤치마크 환경   Deep Learning Models:
+ Resnet50 Resnet152 Inception V3 Inception V4 VGG16    Drivers and Batch Size:</description>
+    </item>
+    
+  </channel>
+</rss>
