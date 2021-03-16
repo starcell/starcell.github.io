@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>benchmark on Deepcell 딥러닝 블로그</title>
-    <link>https://starcell.github.io/tags/benchmark/</link>
-    <description>Recent content in benchmark on Deepcell 딥러닝 블로그</description>
+    <title>gpu 비교 on Deepcell 딥러닝 블로그</title>
+    <link>https://starcell.github.io/tags/gpu-%EB%B9%84%EA%B5%90/</link>
+    <description>Recent content in gpu 비교 on Deepcell 딥러닝 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 16 Mar 2021 13:05:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 13:05:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/gpu-%EB%B9%84%EA%B5%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPU 벤치마크</title>
       <link>https://starcell.github.io/blog/2021/03/16/gpu-benchmark/</link>
