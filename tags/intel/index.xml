@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intel on Deepcell 딥러닝 페이지</title>
+    <link>https://starcell.github.io/tags/intel/</link>
+    <description>Recent content in Intel on Deepcell 딥러닝 페이지</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 17 Mar 2021 18:00:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/intel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>인텔 NUC 미니 피씨</title>
+      <link>https://starcell.github.io/system/2021/03/17/nuc/</link>
+      <pubDate>Wed, 17 Mar 2021 18:00:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/system/2021/03/17/nuc/</guid>
+      <description>인텔이 만든 작지만 강한 컴퓨터 NUC 인텔 누크 미니 피씨(Intel NUC Mini PC)는 손바닥만한 크기의 베어본 컴퓨터입니다. 누크는 CPU만 인텔 제품을 사용하는 다른 피씨와 달리 전체 시스템을 인텔에서 만들어서 공급하는 제품입니다. 크기는 작지만 CPU는 인텔 코어 i7까지 선택할 수 있으며 메모리도 최대 32GB까지 설치 가능합니다. 그리고 기가비트 이더넷과 고속 와이파이에 썬더볼트3 까지 고속의 인터페이스를 제공하여 다양한 용도로 사용할 수 있습니다. 인텔 누크는 작은 크기와 안정적이고 강력한 성능으로 다음과 같은 용도에 특히 더 적합합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

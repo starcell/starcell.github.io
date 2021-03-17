@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Deepcell 딥러닝 블로그</title>
+    <title>Categories on Deepcell 딥러닝 페이지</title>
     <link>https://starcell.github.io/categories/</link>
-    <description>Recent content in Categories on Deepcell 딥러닝 블로그</description>
+    <description>Recent content in Categories on Deepcell 딥러닝 페이지</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 16 Mar 2021 13:05:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 18:00:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>system</title>
       <link>https://starcell.github.io/categories/system/</link>
-      <pubDate>Tue, 16 Mar 2021 13:05:08 +0900</pubDate>
+      <pubDate>Wed, 17 Mar 2021 18:00:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/categories/system/</guid>
       <description></description>
@@ -49,6 +49,15 @@
       <pubDate>Tue, 09 Mar 2021 10:30:20 +0900</pubDate>
       
       <guid>https://starcell.github.io/categories/%EC%9D%BC%EB%B0%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>starting</title>
+      <link>https://starcell.github.io/categories/starting/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://starcell.github.io/categories/starting/</guid>
       <description></description>
     </item>
     

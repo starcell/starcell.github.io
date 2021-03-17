@@ -55,7 +55,7 @@
   <link href="/css/custom.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="https://starcell.github.io/index.xml" type="application/rss+xml" title="Deepcell 딥러닝 블로그">
+  <link rel="alternate" href="https://starcell.github.io/index.xml" type="application/rss+xml" title="Deepcell 딥러닝 페이지">
 
   
   
@@ -65,7 +65,7 @@
   
   
   <meta property="og:locale" content="ko">
-  <meta property="og:site_name" content="Deepcell 딥러닝 블로그">
+  <meta property="og:site_name" content="Deepcell 딥러닝 페이지">
   <meta property="og:title" content="딥셀 엔클러스터">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://starcell.github.io/blog/2021/03/09/ncluster/" />
@@ -126,7 +126,7 @@
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">네비게이션전화</span>
+                      <span class="sr-only">네비게이션전환</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -141,6 +141,13 @@
                   <li class="dropdown">
                     
                     <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/system/">System</a>
                     
                   </li>
                   
@@ -213,7 +220,8 @@
 <p>딥셀 엔클러스터(Deepcell ncluster)는 컨테이너 클러스터를 구축하기 위한 패키지 소프트웨어입니다. 딥셀 엔클러스터를 이용하면 여러 대의 서버 클러스터에서 필요에 따라 다양한 컨테이너(pod)를 손쉽게 만들어 사용할 수 있습니다. 특히 다중 사용자들이 사용해야 하는 딥러닝을 위한 분산 컴퓨팅 환경을 구축하기 위한 최적의 솔루션을 제공합니다.<br>
 딥셀 엔클러스는 내부적으로 가장 많이 사용되는 컨테이너 솔루션인 Docker와 Kubernetes를 사용함으로써 안정성와 관리 용이성이 보장됩니다.</p>
 <h2 id="컨테이너container">컨테이너(container)</h2>
-<p>컨테이너는 시스템 가상화의 한 방법으로 한대의 서버를 여러 대처럼 사용할 수 있는 솔루션입니다. 가상머신과는 다르게 별도의 OS를 사용하지 않고 독립적인 가상시스템 공간을 제공하는 기술로서 성능 오버헤드가 없습니다. 현재 가장 많이 사용되는 제품으로는 <a href="https://www.docker.com/">도커(Docker)</a>가 있습니다. 컨테이너는 다음과 같은 장점이 있습니다.</p>
+<p>컨테이너는 시스템 가상화의 한 방법으로 한대의 서버를 여러 대처럼 사용할 수 있는 솔루션입니다. 가상머신과는 다르게 별도의 OS를 사용하지 않고 독립적인 가상시스템 공간을 제공하는 기술로서 성능 오버헤드가 없습니다. 현재 가장 많이 사용되는 제품으로는 
+<a href="https://www.docker.com/" target="_blank">도커(Docker)</a>가 있습니다. 컨테이너는 다음과 같은 장점이 있습니다.</p>
 <ul>
 <li>서버에 오버헤드 없이 여러 개의 가상 시스템을 운영할 수 있습니다.</li>
 <li>종속성과 호환성 충돌 문제를 제거하는데 유용합니다.</li>
@@ -224,7 +232,8 @@
 <li>서버나 가상머신 클라우드에 모두 설치 가능합니다.</li>
 </ul>
 <h2 id="쿠버네티스kubernetes">쿠버네티스(kubernetes)</h2>
-<p><a href="https://kubernetes.io/ko/">쿠버네티스(kubernetes)</a>는 구글이 만든 컨테이너 클러스터를 쉽게 만들고 관리할 수 있게 해주는 소프트웨어입니다. 쿠버네티스를 사용하면 여러 대의 서버를 하나의 클러스터로 묶어서 컨테이너 플랫폼으로 구성하여 많의 수의 컨테이너들을 쉽게 만들어 사용할 수 있습니다. 쿠버네티스를 이용하여 컨테이너 클러스터를 구성하면 다음과 같은 이점을 얻을 수 있습니다.</p>
+<p>
+<a href="https://kubernetes.io/ko/" target="_blank">쿠버네티스(kubernetes)</a>는 구글이 만든 컨테이너 클러스터를 쉽게 만들고 관리할 수 있게 해주는 소프트웨어입니다. 쿠버네티스를 사용하면 여러 대의 서버를 하나의 클러스터로 묶어서 컨테이너 플랫폼으로 구성하여 많의 수의 컨테이너들을 쉽게 만들어 사용할 수 있습니다. 쿠버네티스를 이용하여 컨테이너 클러스터를 구성하면 다음과 같은 이점을 얻을 수 있습니다.</p>
 <ul>
 <li>전체 시스템 관리 효율을 높일 수 있습니다.</li>
 <li>소수의 서버를 여러 대처럼 활용할 수 있습니다.</li>
@@ -299,7 +308,11 @@
             </li>
             
             <li>
-                <a href="/categories/system">system (2)</a>
+                <a href="/categories/starting">starting (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/system">system (3)</a>
             </li>
             
             <li>
@@ -349,6 +362,10 @@
             </li>
             
             <li>
+                <a href="/tags/computer"><i class="fas fa-tags"></i> computer</a>
+            </li>
+            
+            <li>
                 <a href="/tags/container"><i class="fas fa-tags"></i> container</a>
             </li>
             
@@ -373,7 +390,19 @@
             </li>
             
             <li>
+                <a href="/tags/intel"><i class="fas fa-tags"></i> intel</a>
+            </li>
+            
+            <li>
                 <a href="/tags/kubernetes"><i class="fas fa-tags"></i> kubernetes</a>
+            </li>
+            
+            <li>
+                <a href="/tags/nuc"><i class="fas fa-tags"></i> nuc</a>
+            </li>
+            
+            <li>
+                <a href="/tags/pc"><i class="fas fa-tags"></i> pc</a>
             </li>
             
             <li>
@@ -401,7 +430,15 @@
             </li>
             
             <li>
+                <a href="/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+            <li>
                 <a href="/tags/titan-rtx"><i class="fas fa-tags"></i> titan-rtx</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ea%b5%90%ec%9c%a1"><i class="fas fa-tags"></i> 교육</a>
             </li>
             
             <li>
@@ -471,7 +508,7 @@
                     <div class="image same-height-always">
                         <a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">
                           
-                            <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="GPU 벤치마크">
+                            <img src="/img/banners/banner-2.jpg" class="img-responsive" alt="GPU 벤치마크">
                           
                         </a>
                     </div>

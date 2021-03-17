@@ -55,7 +55,7 @@
   <link href="/css/custom.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="https://starcell.github.io/index.xml" type="application/rss+xml" title="Deepcell 딥러닝 블로그">
+  <link rel="alternate" href="https://starcell.github.io/index.xml" type="application/rss+xml" title="Deepcell 딥러닝 페이지">
 
   
   
@@ -65,7 +65,7 @@
   
   
   <meta property="og:locale" content="ko">
-  <meta property="og:site_name" content="Deepcell 딥러닝 블로그">
+  <meta property="og:site_name" content="Deepcell 딥러닝 페이지">
   <meta property="og:title" content="RTX 3090">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://starcell.github.io/tags/rtx-3090/" />
@@ -114,7 +114,7 @@
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">네비게이션전화</span>
+                      <span class="sr-only">네비게이션전환</span>
                         <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
@@ -129,6 +129,13 @@
                   <li class="dropdown">
                     
                     <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/system/">System</a>
                     
                   </li>
                   
@@ -188,86 +195,13 @@
 
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">
-                                          
-                                          <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">GPU 벤치마크</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          작성자 <a href="#">N Park</a>
-                                          
-                                          
-                                          
-                                          in <a href="/categories/system">system</a>
-                                          
-                                          
 
-                                        </p>
-                                        
-                                        <p class="date-comments">
-                                            <a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/"><i class="far fa-calendar"></i> 2021. 3. 16.</a>
-                                        </p>
-                                        
-                                    </div>
-                                    <p class="intro">딥러닝 위한 GPU 비교 딥러닝용 GPU 벤치마크 자료가 있어서 정리해 봅니다. 딥러닝 시스템을 도입하려는 분들이 GPU를 비교하는데 도움이 되기를 바랍니다.
-1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16) 미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다. 원 글의 제목은 &ldquo;2020-2021년 딥러닝에 가장 좋은 GPU&quot;입니다. 아래 링크에 원문이 있습니다.
-https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-titan-rtx-vs-rtx-2080-ti
-간단히 요약해 보겠습니다.
- 벤치마크 환경   Deep Learning Models:</p>
-                                    <p class="read-more"><a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/" class="btn btn-template-main">계속읽기</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://starcell.github.io/blog/2021/03/15/gpu/">
-                                          
-                                          <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://starcell.github.io/blog/2021/03/15/gpu/">RTX 3090 AI</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          작성자 <a href="#">N Park</a>
-                                          
-                                          
-                                          
-                                          in <a href="/categories/system">system</a>
-                                          
-                                          
 
-                                        </p>
-                                        
-                                        <p class="date-comments">
-                                            <a href="https://starcell.github.io/blog/2021/03/15/gpu/"><i class="far fa-calendar"></i> 2021. 3. 15.</a>
-                                        </p>
-                                        
-                                    </div>
-                                    <p class="intro">딥러닝과 GPU 딥러닝을 위한 컴퓨터 시스템에서 GPU는 핵심적인 역할을 합니다. 특히 엔비디아사의 GPU는 현재 사실상 업계 표준의 위치를 차지하고 있으며 대부분의 딥러닝 연구 개발은 엔비디아사의 GPU를 이용해서 진행되고 있습니다. 엔비디아의 GPU 제품은 크게 4개의 카테고리로 분류되고 있습니다.
- 테슬라  엔비디아 자체 브랜드 딥러닝용, HPC용 서버용, 데이터 센터용, 클라우드용 매우 고가임   타이탄  엔비디아 자체 브랜드 딥러닝용 워크스테이션용, 데스크탑용 고가임   콰드로  엔비디아 자체 브랜드 -그래픽용 워크스테이션용 고가임   지포스  제조사 브랜드(리드텍, 아수스, 기가바이트, MSI, 등 등) 게임용 데스크탑용, 워크스테이션용 상대적으로 저가임    그리고 GPU 칩의 최신 아키텍처는 현재 암페어(Ampere)이며 이전 세대의 CPU 칩셋은 튜링(Turing)입니다.</p>
-                                    <p class="read-more"><a href="https://starcell.github.io/blog/2021/03/15/gpu/" class="btn btn-template-main">계속읽기</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+                        
+                        
+                        
+
                         
 
                         <ul class="pager">
@@ -340,7 +274,11 @@ https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-t
             </li>
             
             <li>
-                <a href="/categories/system">system (2)</a>
+                <a href="/categories/starting">starting (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/system">system (3)</a>
             </li>
             
             <li>
@@ -390,6 +328,10 @@ https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-t
             </li>
             
             <li>
+                <a href="/tags/computer"><i class="fas fa-tags"></i> computer</a>
+            </li>
+            
+            <li>
                 <a href="/tags/container"><i class="fas fa-tags"></i> container</a>
             </li>
             
@@ -414,7 +356,19 @@ https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-t
             </li>
             
             <li>
+                <a href="/tags/intel"><i class="fas fa-tags"></i> intel</a>
+            </li>
+            
+            <li>
                 <a href="/tags/kubernetes"><i class="fas fa-tags"></i> kubernetes</a>
+            </li>
+            
+            <li>
+                <a href="/tags/nuc"><i class="fas fa-tags"></i> nuc</a>
+            </li>
+            
+            <li>
+                <a href="/tags/pc"><i class="fas fa-tags"></i> pc</a>
             </li>
             
             <li>
@@ -442,7 +396,15 @@ https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-t
             </li>
             
             <li>
+                <a href="/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+            <li>
                 <a href="/tags/titan-rtx"><i class="fas fa-tags"></i> titan-rtx</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ea%b5%90%ec%9c%a1"><i class="fas fa-tags"></i> 교육</a>
             </li>
             
             <li>
@@ -511,7 +473,7 @@ https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-t
                     <div class="image same-height-always">
                         <a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">
                           
-                            <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="GPU 벤치마크">
+                            <img src="/img/banners/banner-2.jpg" class="img-responsive" alt="GPU 벤치마크">
                           
                         </a>
                     </div>
