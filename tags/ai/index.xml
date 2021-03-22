@@ -6,7 +6,18 @@
     <description>Recent content in AI on Deepcell 딥러닝 페이지</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 17 Mar 2021 18:00:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 21:30:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>인공지능 기본</title>
+      <link>https://starcell.github.io/edu/ai-basic/</link>
+      <pubDate>Sat, 20 Mar 2021 21:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/edu/ai-basic/</guid>
+      <description>인공지능(AI)이란? 워낙 많이 듣고 익숙한 용어이므로 간단하게 정리하고 넘어가겠습니다.
+여러가지 정의가 있겠지만 기술적 관점에서 아래와 같이 정리하는 것이 좋을 것 같습니다.
+ 인간의 사고와 판단이 필요하여 기존의 기계나 프로그램으로는 대신하기 어렵다고 여겨졌던 업무를 수행할 수 있는 기계나 프로그램  굳이 분류를 명확히 하자면 위의 이 정리는 좁은인공지능(ANI; Artificial Nerrow Intelligence) 또는 약인공지능(Weak Artificial Intelligence)에 해당되는 설명이라고 할 수 있습니다. 우리가 현실 속에서 접하거나 연구하는 기술은 이 좁은인공지능의 범위에 포함이 됩니다.</description>
+    </item>
+    
     <item>
       <title>인텔 NUC 미니 피씨</title>
       <link>https://starcell.github.io/system/nuc/</link>
