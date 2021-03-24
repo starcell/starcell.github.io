@@ -1,3 +1,19 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+/* added by npark */
+body {
+  line-height: 1.8;
+}
+
 .customers .owl-wrapper-outer {
   margin: auto;
 	width: 50%;

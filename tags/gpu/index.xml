@@ -14,10 +14,7 @@
       
       <guid>https://starcell.github.io/blog/2021/03/16/gpu-benchmark/</guid>
       <description>딥러닝 위한 GPU 비교 딥러닝용 GPU 벤치마크 자료가 있어서 정리해 봅니다. 딥러닝 시스템을 도입하려는 분들이 GPU를 비교하는데 도움이 되기를 바랍니다.
-1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16) 미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다. 원 글의 제목은 &amp;ldquo;2020-2021년 딥러닝에 가장 좋은 GPU&amp;quot;입니다. 아래 링크에 원문이 있습니다.
-Bizon사 GPU 벤치마크
-간단히 요약해 보겠습니다.
- 벤치마크 환경   Deep Learning Models:</description>
+1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16) 미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다.</description>
     </item>
     
     <item>
@@ -26,8 +23,8 @@ Bizon사 GPU 벤치마크
       <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/blog/2021/03/15/gpu/</guid>
-      <description>딥러닝과 GPU 딥러닝을 위한 컴퓨터 시스템에서 GPU는 핵심적인 역할을 합니다. 특히 엔비디아사의 GPU는 현재 사실상 업계 표준의 위치를 차지하고 있으며 대부분의 딥러닝 연구 개발은 엔비디아사의 GPU를 이용해서 진행되고 있습니다. 엔비디아의 GPU 제품은 크게 4개의 카테고리로 분류되고 있습니다.
- 테슬라  엔비디아 자체 브랜드 딥러닝용, HPC용 서버용, 데이터 센터용, 클라우드용 매우 고가임   타이탄  엔비디아 자체 브랜드 딥러닝용 워크스테이션용, 데스크탑용 고가임   콰드로  엔비디아 자체 브랜드 -그래픽용 워크스테이션용 고가임   지포스  제조사 브랜드(리드텍, 아수스, 기가바이트, MSI, 등 등) 게임용 데스크탑용, 워크스테이션용 상대적으로 저가임    그리고 GPU 칩의 최신 아키텍처는 현재 암페어(Ampere)이며 이전 세대의 CPU 칩셋은 튜링(Turing)입니다.</description>
+      <description>&lt;h2 id=&#34;딥러닝과-gpu&#34;&gt;딥러닝과 GPU&lt;/h2&gt;
+&lt;p&gt;딥러닝을 위한 컴퓨터 시스템에서 GPU는 핵심적인 역할을 합니다. 특히 엔비디아사의 GPU는 현재 사실상 업계 표준의 위치를 차지하고 있으며 대부분의 딥러닝 연구 개발은 엔비디아사의 GPU를 이용해서 진행되고 있습니다. 엔비디아의 GPU 제품은 크게 4개의 카테고리로 분류되고 있습니다.&lt;/p&gt;</description>
     </item>
     
   </channel>

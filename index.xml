@@ -14,7 +14,7 @@
       
       <guid>https://starcell.github.io/ai/ml-basic/</guid>
       <description>기계학습 현재 인공지능 기술의 대부분을 차지하는 기계학습에 대해 간단하게 알아보겠습니다.
-학습: 컴퓨터는 무엇을 어떻게 학습한다는 것일까? 학습을 한다는 것은 자료를 통해서 새로운 것을 알아간다는 의미입니다. 그러나 학습이라는 용어를 붙인 컴퓨터에서 일어나는 동작은 사람이 배우는 것과는 다릅니다. 이를 제대로 이해하기 위해서는 컴퓨터의 능력을 알아야 합니다. 컴퓨터가 처리하는 모든 데이터는 숫자여야 합니다. 우리가 컴퓨터를 통해 보는 다양한 멀티미디어 데이터들도 모두 컴퓨터에서 처리될 때는 숫자로 변환된 상태에서 처리가 됩니다. 그리고 숫자 데이터를 처리한다고 하는 것은 결국 계산을 하는 것입니다.</description>
+학습: 컴퓨터는 무엇을 어떻게 학습한다는 것일까? 학습을 한다는 것은 자료를 통해서 새로운 것을 알아간다는 의미입니다. 그러나 학습이라는 용어를 붙인 컴퓨터에서 일어나는 동작은 사람이 배우는 것과는 다릅니다. 이를 제대로 이해하기 위해서는 컴퓨터의 능력을 알아야 합니다.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <guid>https://starcell.github.io/ai/ai-basic/</guid>
       <description>인공지능(AI)이란? 워낙 많이 듣고 익숙한 용어이므로 간단하게 정리하고 넘어가겠습니다.
 여러가지 정의가 있겠지만 기술적 관점에서 아래와 같이 정리하는 것이 좋을 것 같습니다.
- 인간의 사고와 판단이 필요하여 기존의 기계나 프로그램으로는 대신하기 어렵다고 여겨졌던 업무를 수행할 수 있는 기계나 프로그램  굳이 분류를 명확히 하자면 위의 이 정리는 좁은인공지능(ANI; Artificial Nerrow Intelligence) 또는 약인공지능(Weak Artificial Intelligence)에 해당되는 설명이라고 할 수 있습니다. 우리가 현실 속에서 접하거나 연구하는 기술은 이 좁은인공지능의 범위에 포함이 됩니다.</description>
+ 인간의 사고와 판단이 필요하여 기존의 기계나 프로그램으로는 대신하기 어렵다고 여겨졌던 업무를 수행할 수 있는 기계나 프로그램  굳이 분류를 명확히 하자면 위의 이 정리는 좁은인공지능(ANI; Artificial Nerrow Intelligence) 또는 약인공지능(Weak Artificial Intelligence)에 해당되는 설명이라고 할 수 있습니다.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Wed, 17 Mar 2021 18:00:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/system/nuc/</guid>
-      <description>인텔이 만든 작지만 강한 컴퓨터 NUC 인텔 누크 미니 피씨(Intel NUC Mini PC)는 손바닥만한 크기의 베어본 컴퓨터입니다. 누크는 CPU만 인텔 제품을 사용하는 다른 피씨와 달리 전체 시스템을 인텔에서 만들어서 공급하는 제품입니다. 크기는 작지만 CPU는 인텔 코어 i7까지 선택할 수 있으며 메모리도 최대 32GB까지 설치 가능합니다. 그리고 기가비트 이더넷과 고속 와이파이에 썬더볼트3 까지 고속의 인터페이스를 제공하여 다양한 용도로 사용할 수 있습니다. 인텔 누크는 작은 크기와 안정적이고 강력한 성능으로 다음과 같은 용도에 특히 더 적합합니다.</description>
+      <description>인텔이 만든 작지만 강한 컴퓨터 NUC 인텔 누크 미니 피씨(Intel NUC Mini PC)는 손바닥만한 크기의 베어본 컴퓨터입니다. 누크는 CPU만 인텔 제품을 사용하는 다른 피씨와 달리 전체 시스템을 인텔에서 만들어서 공급하는 제품입니다. 크기는 작지만 CPU는 인텔 코어 i7까지 선택할 수 있으며 메모리도 최대 32GB까지 설치 가능합니다.</description>
     </item>
     
     <item>
@@ -44,10 +44,7 @@
       
       <guid>https://starcell.github.io/blog/2021/03/16/gpu-benchmark/</guid>
       <description>딥러닝 위한 GPU 비교 딥러닝용 GPU 벤치마크 자료가 있어서 정리해 봅니다. 딥러닝 시스템을 도입하려는 분들이 GPU를 비교하는데 도움이 되기를 바랍니다.
-1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16) 미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다. 원 글의 제목은 &amp;ldquo;2020-2021년 딥러닝에 가장 좋은 GPU&amp;quot;입니다. 아래 링크에 원문이 있습니다.
-Bizon사 GPU 벤치마크
-간단히 요약해 보겠습니다.
- 벤치마크 환경   Deep Learning Models:</description>
+1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16) 미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다.</description>
     </item>
     
     <item>
@@ -56,8 +53,8 @@ Bizon사 GPU 벤치마크
       <pubDate>Mon, 15 Mar 2021 17:00:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/blog/2021/03/15/gpu/</guid>
-      <description>딥러닝과 GPU 딥러닝을 위한 컴퓨터 시스템에서 GPU는 핵심적인 역할을 합니다. 특히 엔비디아사의 GPU는 현재 사실상 업계 표준의 위치를 차지하고 있으며 대부분의 딥러닝 연구 개발은 엔비디아사의 GPU를 이용해서 진행되고 있습니다. 엔비디아의 GPU 제품은 크게 4개의 카테고리로 분류되고 있습니다.
- 테슬라  엔비디아 자체 브랜드 딥러닝용, HPC용 서버용, 데이터 센터용, 클라우드용 매우 고가임   타이탄  엔비디아 자체 브랜드 딥러닝용 워크스테이션용, 데스크탑용 고가임   콰드로  엔비디아 자체 브랜드 -그래픽용 워크스테이션용 고가임   지포스  제조사 브랜드(리드텍, 아수스, 기가바이트, MSI, 등 등) 게임용 데스크탑용, 워크스테이션용 상대적으로 저가임    그리고 GPU 칩의 최신 아키텍처는 현재 암페어(Ampere)이며 이전 세대의 CPU 칩셋은 튜링(Turing)입니다.</description>
+      <description>&lt;h2 id=&#34;딥러닝과-gpu&#34;&gt;딥러닝과 GPU&lt;/h2&gt;
+&lt;p&gt;딥러닝을 위한 컴퓨터 시스템에서 GPU는 핵심적인 역할을 합니다. 특히 엔비디아사의 GPU는 현재 사실상 업계 표준의 위치를 차지하고 있으며 대부분의 딥러닝 연구 개발은 엔비디아사의 GPU를 이용해서 진행되고 있습니다. 엔비디아의 GPU 제품은 크게 4개의 카테고리로 분류되고 있습니다.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,8 +63,7 @@ Bizon사 GPU 벤치마크
       <pubDate>Wed, 10 Mar 2021 16:47:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/blog/2021/03/10/ccrs/</guid>
-      <description>딥셀 CCRS(Container Cluster Ready System) 딥셀 CCRS는 난이도 높은 컨테이너 클러스터 구축 문제를 해결해주는 토탈솔루션입니다. 이 제품에는 하드웨어부터 소프트웨어와 서비스까지 필요한 모든 것이 포함되어 있습니다. Deepcell은 신뢰성 높은 인텔의 하드웨어를 기반으로 하고, 사실상의 표준인 Docker와 Kubernetes 소프트웨어와 필수 플러그인들로 구성되었습니다. 그리고 초기 사용을 위한 컨테이너 지원 서비스와 운영 교육 서비스를 제공하여 고객이 손쉽게 컨테이너 클러스터를 이용할 수 있도록 합니다.
-딥셀 CCRS H/W 딥셀 CCRS의 하드웨어는 Intel Xeon Scalable CPU를 장착한 Intel Server를 표준으로 합니다.</description>
+      <description>딥셀 CCRS(Container Cluster Ready System) 딥셀 CCRS는 난이도 높은 컨테이너 클러스터 구축 문제를 해결해주는 토탈솔루션입니다. 이 제품에는 하드웨어부터 소프트웨어와 서비스까지 필요한 모든 것이 포함되어 있습니다. Deepcell은 신뢰성 높은 인텔의 하드웨어를 기반으로 하고, 사실상의 표준인 Docker와 Kubernetes 소프트웨어와 필수 플러그인들로 구성되었습니다. 그리고 초기 사용을 위한 컨테이너 지원 서비스와 운영 교육 서비스를 제공하여 고객이 손쉽게 컨테이너 클러스터를 이용할 수 있도록 합니다.</description>
     </item>
     
     <item>
@@ -76,9 +72,7 @@ Bizon사 GPU 벤치마크
       <pubDate>Tue, 09 Mar 2021 15:39:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/blog/2021/03/09/ncluster/</guid>
-      <description>딥셀 엔클러스터(Deepcell ncluster) 딥셀 엔클러스터(Deepcell ncluster)는 컨테이너 클러스터를 구축하기 위한 패키지 소프트웨어입니다. 딥셀 엔클러스터를 이용하면 여러 대의 서버 클러스터에서 필요에 따라 다양한 컨테이너(pod)를 손쉽게 만들어 사용할 수 있습니다. 특히 다중 사용자들이 사용해야 하는 딥러닝을 위한 분산 컴퓨팅 환경을 구축하기 위한 최적의 솔루션을 제공합니다.
-딥셀 엔클러스는 내부적으로 가장 많이 사용되는 컨테이너 솔루션인 Docker와 Kubernetes를 사용함으로써 안정성과 관리 용이성이 보장됩니다.
-컨테이너(container) 컨테이너는 시스템 가상화의 한 방법으로 한대의 서버를 여러 대처럼 사용할 수 있는 솔루션입니다.</description>
+      <description>딥셀 엔클러스터(Deepcell ncluster) 딥셀 엔클러스터(Deepcell ncluster)는 컨테이너 클러스터를 구축하기 위한 패키지 소프트웨어입니다. 딥셀 엔클러스터를 이용하면 여러 대의 서버 클러스터에서 필요에 따라 다양한 컨테이너(pod)를 손쉽게 만들어 사용할 수 있습니다. 특히 다중 사용자들이 사용해야 하는 딥러닝을 위한 분산 컴퓨팅 환경을 구축하기 위한 최적의 솔루션을 제공합니다.</description>
     </item>
     
     <item>
@@ -88,8 +82,7 @@ Bizon사 GPU 벤치마크
       
       <guid>https://starcell.github.io/blog/2021/03/09/fstack/</guid>
       <description>Introduction 딥러닝을 시작할 때 만나는 문턱:
-인공지능, 딥러닝 이런 단어는 이제 너무 익숙합니다. 하지만 딥러닝의 기술적인 실체를 이해하는 것은 쉽지 않습니다. 딥러닝이 무엇인지 제대로 이해하기 위한 가장 좋은 방법은 직접 해보는 것입니다. 이론이나 원리를 조금 모르더라도 직접 모델 트레이닝을 하고 추론 시스템을 만들어 보면 딥러닝을 기반으로 한 인공지능 시스템이 어떻게 작동하는 지 이해할 수 있습니다.
-모든 것이 준비된 상태에서 모델 트레이닝을 하고 추론 테스트를 한다면, 그 과정이 비교적 쉽겠지만 보통은 필요한 것들(개발 환경, 필요 데이터 등)을 직접 준비하고자 하면 많은 어려움을 만나게 됩니다.</description>
+인공지능, 딥러닝 이런 단어는 이제 너무 익숙합니다. 하지만 딥러닝의 기술적인 실체를 이해하는 것은 쉽지 않습니다. 딥러닝이 무엇인지 제대로 이해하기 위한 가장 좋은 방법은 직접 해보는 것입니다. 이론이나 원리를 조금 모르더라도 직접 모델 트레이닝을 하고 추론 시스템을 만들어 보면 딥러닝을 기반으로 한 인공지능 시스템이 어떻게 작동하는 지 이해할 수 있습니다.</description>
     </item>
     
     <item>
@@ -99,8 +92,7 @@ Bizon사 GPU 벤치마크
       
       <guid>https://starcell.github.io/blog/2021/03/09/introto-deepcell-blog/</guid>
       <description>스타셀이 운영하는 딥러닝 기술 블로그입니다.
-이 블로그에서는 딥러닝을 시작하려는 사람들에게 필요한 정보를 제공하려고 합니다. 주로 딥러닝에 대한 기본 지식, 딥러닝 연구 개발을 위한 시스템 환경 설정 방법, 딥러닝을 위한 시스템에 대한 지식, 그리고 딥러닝에 필요한 사전 지식 특히 파이썬 코딩에 대한 내용들을 다루려고 합니다.
-딥러닝 기본 인공지능 기술 중 현재 가장 핫한 기술인 딥러닝에 대하여 기술적으로 이해하는데 필요한 기본 지식을 다룹니다. 딥러닝의 기본 원리, 딥러닝에서 사용되는 알고리즘과 방법들, 딥러닝을 하기위해 필요한 도구들, 딥러닝 관련한 새로운 소식들에 대해 다룹니다.</description>
+이 블로그에서는 딥러닝을 시작하려는 사람들에게 필요한 정보를 제공하려고 합니다. 주로 딥러닝에 대한 기본 지식, 딥러닝 연구 개발을 위한 시스템 환경 설정 방법, 딥러닝을 위한 시스템에 대한 지식, 그리고 딥러닝에 필요한 사전 지식 특히 파이썬 코딩에 대한 내용들을 다루려고 합니다.</description>
     </item>
     
     <item>
@@ -109,8 +101,7 @@ Bizon사 GPU 벤치마크
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
       <guid>https://starcell.github.io/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.</description>
     </item>
     
     <item>
@@ -129,8 +120,7 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://starcell.github.io/faq/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
     </item>
     
   </channel>
