@@ -24,3 +24,61 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* font : Roboto는 영문 폰트, 한글을 지원하는 Noto로 수정 */
+/* buttons  */
+.btn {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+.panel.sidebar-menu ul.nav.category-menu li a {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+.panel.sidebar-menu ul.nav ul li a {
+  font-family: "Times New Roman", Times, serif;
+}
+.ribbon .theribbon {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+#blog-post .comment .reply {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+#productMain .sizes a {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* Original Boostrap template overwrite */
+/* breadcrumbs */
+.breadcrumb {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* scaffolding */
+body {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* labels */
+.label {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* pager*/
+.pager {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* pagination */
+.pagination {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* type */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Noto Sans KR', "Roboto", Helvetica, Arial, sans-serif;
+}
+/* 폰트 변경 끝 */
