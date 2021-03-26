@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anaconda on Deepcell 딥러닝 페이지</title>
+    <link>https://starcell.github.io/tags/anaconda/</link>
+    <description>Recent content in anaconda on Deepcell 딥러닝 페이지</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 24 Mar 2021 17:03:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/anaconda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>머신러닝 실습환경 - Anaconda</title>
+      <link>https://starcell.github.io/blog/2021/03/24/anaconda/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/blog/2021/03/24/anaconda/</guid>
+      <description>목적 Python을 통해 머신러닝을 진행하고자 한다면 생각보다 다양한 파이썬 버전 및 종속되는 소프트웨어, 통계, 과학 등의 패키지를 필요로 하게 됩니다. PIP(Python Package Index)로 이러한 요구를 충족하기 어렵기 때문에, 가상환경의 Conda를 제공하여 학습에 맞게 다양한 파이썬 패키지를 독립적 운영할 수 있는 Anaconda를 활용합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

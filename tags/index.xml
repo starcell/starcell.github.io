@@ -6,22 +6,85 @@
     <description>Recent content in Tags on Deepcell 딥러닝 페이지</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 22 Mar 2021 13:30:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 17:03:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>https://starcell.github.io/tags/ai/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
+      <title>anaconda</title>
+      <link>https://starcell.github.io/tags/anaconda/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
       
-      <guid>https://starcell.github.io/tags/ai/</guid>
+      <guid>https://starcell.github.io/tags/anaconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cluster</title>
+      <link>https://starcell.github.io/tags/cluster/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/cluster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>container</title>
+      <link>https://starcell.github.io/tags/container/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep learning</title>
       <link>https://starcell.github.io/tags/deep-learning/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keras</title>
+      <link>https://starcell.github.io/tags/keras/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/keras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://starcell.github.io/tags/kubernetes/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://starcell.github.io/tags/python/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tensorflow</title>
+      <link>https://starcell.github.io/tags/tensorflow/</link>
+      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://starcell.github.io/tags/ai/</link>
+      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -206,38 +269,11 @@
     </item>
     
     <item>
-      <title>cluster</title>
-      <link>https://starcell.github.io/tags/cluster/</link>
-      <pubDate>Wed, 10 Mar 2021 16:47:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/cluster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>container</title>
-      <link>https://starcell.github.io/tags/container/</link>
-      <pubDate>Wed, 10 Mar 2021 16:47:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/container/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hardware</title>
       <link>https://starcell.github.io/tags/hardware/</link>
       <pubDate>Wed, 10 Mar 2021 16:47:08 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://starcell.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 10 Mar 2021 16:47:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -256,15 +292,6 @@
       <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tensorflow</title>
-      <link>https://starcell.github.io/tags/tensorflow/</link>
-      <pubDate>Tue, 09 Mar 2021 11:30:46 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/tensorflow/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>머신러닝 실습환경 - Anaconda</title>
+  <meta name="author" content="starcell" />
+  
+  
+  
+  
+  <meta name="keywords" content="딥러닝, 인공지능, 코딩, deep learning, AI, container, docker, kubernetes, GPU, anaconda, tensorflow, keras, python, cluster">
+  
+  
+  <meta name="description" content="Site template made by devcows using hugo">
+
+  <meta name="generator" content="Hugo 0.81.0" />
+
+  
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+  
+  <link href="/css/owl.carousel.css" rel="stylesheet">
+  <link href="/css/owl.theme.css" rel="stylesheet">
+
+  
+  <link href="/css/custom.css" rel="stylesheet">
+
+  
+  <link rel="alternate" href="https://starcell.github.io/index.xml" type="application/rss+xml" title="Deepcell 딥러닝 페이지">
+
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:locale" content="ko">
+  <meta property="og:site_name" content="Deepcell 딥러닝 페이지">
+  <meta property="og:title" content="머신러닝 실습환경 - Anaconda">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://starcell.github.io/blog/2021/03/24/anaconda/" />
+  <meta property="og:description" content="Site template made by devcows using hugo">
+  <meta property="og:image" content="https://starcell.github.io/img/banners/banner-3.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  
+  
+  
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="750">
+  
+  
+  <meta property="og:updated_time" content="2021-03-24T17:03:46&#43;0900">
+  
+    
+    
+    <meta property="article:section" content="deep-learning">
+    <meta property="article:tag" content="anaconda">
+    <meta property="article:tag" content="tensorflow">
+    <meta property="article:tag" content="keras">
+    <meta property="article:tag" content="python">
+    <meta property="article:tag" content="kubernetes">
+    <meta property="article:tag" content="container">
+    <meta property="article:tag" content="cluster">
+    <meta property="article:tag" content="deep learning">
+    
+    
+    <meta property="article:published_time" content="2021-03-24T17:03:46&#43;0900">
+    <meta property="article:modified_time" content="2021-03-24T17:03:46&#43;0900">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GoHugoIO">
+  <meta name="twitter:title" content="머신러닝 실습환경 - Anaconda">
+  
+  <meta name="twitter:image" content="https://starcell.github.io/img/banners/banner-3.jpg">
+  
+  <meta name="twitter:description" content="Site template made by devcows using hugo">
+  
+
+  
+  
+  <script src="/js/medium-zoom.js"></script>
+
+  
+  
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    <img src="/img/deepcell.png" alt="머신러닝 실습환경 - Anaconda logo" class="hidden-xs hidden-sm">
+                    <img src="/img/deepcell.png" alt="머신러닝 실습환경 - Anaconda logo" class="visible-xs visible-sm">
+                    <span class="sr-only">머신러닝 실습환경 - Anaconda - 홈으로</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">네비게이션전환</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown active">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/system/">System</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/ai/">AI</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">    
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>머신러닝 실습환경 - Anaconda</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            작성자 <a href="#">starcell</a>
+                             | 
+                            2021. 3. 24.
+                          </p>
+                        
+
+                        <div id="post-content">
+                          <h3 id="목적">목적</h3>
+<p>Python을 통해 머신러닝을 진행하고자 한다면 생각보다 다양한 파이썬 버전 및 종속되는 소프트웨어, 통계, 과학 등의 패키지를 필요로 하게 됩니다.
+PIP(Python Package Index)로 이러한 요구를 충족하기 어렵기 때문에, 가상환경의 Conda를 제공하여 학습에 맞게 다양한 파이썬 패키지를 독립적 운영할 수 있는 Anaconda를 활용합니다.</p>
+<p>그리고, Anaconda를 통해 아래와 같이 두개의 실습환경(Environments)을 생성합니다.</p>
+<pre><code> py37tf20   &gt; Python 3.7.3 + TensorFlow(2.0.0) 설치
+ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
+</code></pre><h1 id="heading"></h1>
+<h5 id="--py37tf20">- py37tf20</h5>
+<ul>
+<li>TensorFlow 2.0.0이 가장 최신 버전이므로 앞으로 새로 작성하는 코드는 이 environment에서 작성이 되어야 합니다.</li>
+<li>TensorFlow 2.0.0에서는 syntax가 많이 변경 되었기에 TensorFlow 1.* 환경에서 작성된 코드를 바로 사용할 수 없습니다.</li>
+</ul>
+<h1 id="heading-1"></h1>
+<h5 id="--py37tf114">- py37tf114</h5>
+<ul>
+<li>예전에 작성된 코드나 책 예제코드를 구동할 때 필요합니다.</li>
+</ul>
+<h1 id="heading-2"></h1>
+<h4 id="유의사항">유의사항</h4>
+<ul>
+<li>이 문서는 Windows에서 설치한다고 가정하고 작성되었습니다.  Linux, macOS의 경우에도 설치방법이 대동소이 합니다.</li>
+<li>이 문서는 2019년 10월 13일 기준 상황으로 작성되었습니다.  따라서, 추후 Python library 업그레이드에 따라 세부적인 사항은 바뀔 수 있습니다.</li>
+<li>이 문서는 CPU를 사용하는 경우를 가정하고 작성되었습니다.  NVIDIA GPU가 설치된 컴퓨터에 관한 설치 방법은 다른 thread에서 다루겠습니다.</li>
+<li>TensorFlow를 구동시 &ldquo;Your CPU suppoprts instructions that this TensorFlow birany was not complied to use: AVX2&quot;와 같은 warning message를 받을 수 있는데, 이에 관한 내용은 다른 thread에서 다루겠습니다.</li>
+<li>Python을 직접 다운로드 (<a href="https://www.python.org/downloads">https://www.python.org/downloads</a>) 받아서 설치해도 되지만, data science 작업에 Jupyter Notebook이란 도구가 유용하게 사용되기에 이를 제공하는 Anaconda를 사용합니다.</li>
+</ul>
+<h1 id="heading-3"></h1>
+<h2 id="설치">설치</h2>
+<h4 id="1-anaconda-설치">1) Anaconda 설치</h4>
+<h5 id="사용하는-컴퓨터의-os에-맞는-anaconda-설치파일을-wwwanacondacomdistribution-에서--다운로드-받습니다">사용하는 컴퓨터의 OS에 맞는 Anaconda 설치파일을 (<a href="http://www.anaconda.com/distribution">www.anaconda.com/distribution</a>) 에서  다운로드 받습니다.</h5>
+<pre><code>* 3.7을 선택합니다. 
+  (Python Ver 2는 예전 코드를 실행시키기 위한 것이라 이해하면 됩니다.)
+
+* Install for: Just Me 추천합니다.
+
+* Bottom one: Register Anaconda as my default Python 3.7
+  (위 옵션을 제외한, 다른 선택 옵션은 OS의 PATH를 수정하기 때문에 사용하지 말것을 권합니다.)
+
+* 설치가 완료되면 컴퓨터를 재부팅합니다.
+</code></pre>
+<h1 id="heading-4"></h1>
+<h5 id="설치된-anaconda에서-아래에-있는-3가지-software를-주로-사용합니다">설치된 Anaconda에서 아래에 있는 3가지 Software를 주로 사용합니다.</h5>
+<pre><code>* Jupyter Notebook : 파이썬 코딩과 통계, data science 등의 실제 프로그래밍 작업합니다.
+* Anaconda Prompt : environment, library(package)를 설치, 변경, 삭제등 관리는 하는 터미널입니다.
+* Anaconda Navigator : Anaconda Prompt의 작업을 GUI를 통하여 편리하게 확인 및 실행합니다.
+</code></pre>
+<h1 id="heading-5"></h1>
+<h4 id="2-설치확인">2) 설치확인</h4>
+<h5 id="anaconda-prompt-실행하기">Anaconda Prompt 실행하기</h5>
+<pre><code>* Windows 메뉴에서 Anaconda Prompt를 선택하면 Anaconda Prompt를 위한 터미널이 뜹니다.
+  (참고로, 이 터미널은 Windows OS에서 제공하는 MS DOS 터미널과는 다릅니다.)
+
+* 프롬프트 앞 부분에 보이는 (base)는 기본 제공되는 환경이며, &quot;base&quot;란 environment에 있음을 알려줍니다.
+</code></pre>
+<h1 id="heading-6"></h1>
+<h5 id="anaconda-prompt-터미널에서-python-간단명령어-실행하기">Anaconda Prompt 터미널에서 Python 간단명령어 실행하기</h5>
+<pre><code> &gt; where python (설치된 디렉토리를 표시합니다.)
+ &gt; python -V 혹은, python --version 
+   (해당 environment에 설치된 Python의 버전을 보여줍니다 3.7.3으로 표시됩니다.)
+</code></pre>
+<h1 id="heading-7"></h1>
+<h5 id="간단한-python-코드-테스트하기">간단한 Python 코드 테스트하기</h5>
+<pre><code>* 터미널에서 python을 입력하면 Python 프롬프트 모드로 변경됩니다.
+* Python 프롬프트(&gt;&gt;&gt; 모양)에서 시험삼아 1+1을 실행해 보세요.
+* Ctrl-d, Ctrl-z, 또는 exit() &amp; enter를 사용하면 Python을 종료할 수 있습니다.
+</code></pre>
+<h1 id="heading-8"></h1>
+<h4 id="3-실습환경environment-사전준비-작업">3) 실습환경(Environment) 사전준비 작업</h4>
+<h5 id="anaconda-prompt-터미널의-base-환경에서-다음의-명령어를-순서대로-실행해-봅니다">Anaconda Prompt 터미널의 (base) 환경에서 다음의 명령어를 순서대로 실행해 봅니다.</h5>
+<pre><code> &gt; conda --version (conda의 현재 버전을 보여줍니다.)
+ &gt; conda update conda (최신 conda버전으로 update 합니다. 다소 시간이 걸릴 수 있습니다.)
+ &gt; conda --version (updated conda의 버전을 보여줍니다.)
+ &gt; conda list (현재 conda에 설치되어 있는 library를 보여줍니다.)
+ &gt; conda env list (설치된 environment을 보여줍니다. 지금 단계에선 base만 나타납니다.)
+ &gt; conda install nb_conda
+   (Jupyter Notebook에서 새로 만든 environment를 표시하기 위해 필요한 작업입니다.)
+</code></pre>
+<h1 id="heading-9"></h1>
+<h4 id="4-environment-py37tf20-생성하기">4) Environment py37tf20 생성하기</h4>
+<h5 id="anaconda-prompt-터미널의-base-환경에서-아래와-같이-실행합니다">Anaconda Prompt 터미널의 base 환경에서 아래와 같이 실행합니다.</h5>
+<pre><code> &gt; conda create --name py37tf20 python=3.7 
+  (Python 3.7.3이 설치된 py37tf20 새로운 환경을 만들어집니다.)
+
+ &gt; conda env list 
+  (base 와 py37tf20 2개의 환경이 나타납니다.)
+
+ &gt; where python 
+  (아직은 base 환경에서의 Python 위치를 보여줌)
+
+ &gt; conda activate py37tf20 
+  (base 환경에서 py37tf20 환경으로 변경됩니다. 프롬프트 앞부분도 py37tf20 으로 표시됩니다.)
+</code></pre>
+<h1 id="heading-10"></h1>
+<h5 id="py37tf20-환경에서-아래와-같이-실행합니다">py37tf20 환경에서 아래와 같이 실행합니다.</h5>
+<pre><code> &gt; where python 
+  (이젠 py37tf20 환경에서의 Python 위치를 보여줌)
+
+ &gt; conda install ipykernel 
+  (나중에 Jupyter Notebook에서 새로 만든 환경들이 보이게 하기 위해 필요한 작업-커널표시)
+
+ &gt; pip install --upgrade tensorflow
+  (TensorFlow 최신 버전 2.0.0 설치)
+
+ &gt; pip install --upgrade keras
+  (Keras 최신 버전 설치)
+</code></pre>
+<h1 id="heading-11"></h1>
+<h5 id="간단한-python-코드-실행하기">간단한 Python 코드 실행하기</h5>
+<pre><code> &gt; python (py37tf20 환경에서 Python 프롬프트 진입(&gt;&gt;&gt;))
+  &gt;&gt;&gt; import tensorflow as tf
+      tf.__version__
+      tf.keras.__version__
+      print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+      (여기서 위에 기술한 이유로 warning message를 한번 받을수도 있습니다.)
+
+      session = tf.Session()
+      (Session 명령어는 TensorFlow 2.0 부터는 사용되지 않기에 (syntax 변경 예) 에러가 발생합니다.)
+
+      exit()
+
+ &gt; conda deactivate 
+   (py37tf20 환경에서 기본 base 환경으로 복귀합니다.)
+</code></pre>
+<h1 id="heading-12"></h1>
+<h4 id="5-environment-py37tf114-추가-생성하기">5) Environment py37tf114 추가 생성하기</h4>
+<h5 id="anaconda-prompt-터미널의-base-환경에서-아래와-같이-실행합니다-1">Anaconda Prompt 터미널의 base 환경에서 아래와 같이 실행합니다.</h5>
+<pre><code> &gt; conda create --name py37tf114 python=3.7
+ &gt; conda env list
+  (이제는 base, py37tf20, py37tf114 3개가 나타납니다.)
+
+ &gt; where python
+ &gt; conda activate py37tf114
+</code></pre>
+<h1 id="heading-13"></h1>
+<h5 id="py37tf114-환경에서-아래와-같이-실행합니다">py37tf114 환경에서 아래와 같이 실행합니다.</h5>
+<pre><code> &gt; where python 
+  (이젠 py37tf114 환경에서의 Python 위치를 보여줌)
+
+ &gt; conda install ipykernel 
+ &gt; pip install --upgrade tensorflow==1.14.0 
+ &gt; pip install --upgrade keras
+ &gt; pip show numpy
+  (아마도 1.17.2 로 나올것이며, TensorFlow 1.14.0에서 쓰기에는 높은 버전입니다.)
+
+ &gt; pip uninstall numpy
+  (numpy 제거합니다.)
+
+ &gt; pip install numpy==1.16.5
+  (낮은 버전으로 다시 설치합니다.)
+</code></pre>
+<h1 id="heading-14"></h1>
+<h5 id="간단한-python-코드-실행하기-1">간단한 Python 코드 실행하기</h5>
+<pre><code> &gt; python (py37tf114 환경에서 Python 프롬프트 진입(&gt;&gt;&gt;))
+  &gt;&gt;&gt; import tensorflow as tf
+      tf.__version__
+      tf.keras.__version__
+      print(tf.reduce_sum(tf.random.normal([1000, 1000])))
+      session = tf.Session()
+      exit()
+
+ &gt; conda deactivate 
+   (py37tf114 환경에서 기본 base 환경으로 복귀합니다.)
+</code></pre>
+<h5 id="생성한-환경을-삭제할-때는-base-환경에서-아래-명령어를-실행합니다">생성한 환경을 삭제할 때는 base 환경에서 아래 명령어를 실행합니다.</h5>
+<pre><code> &gt; conda env remove --name '환경이름'
+</code></pre>
+<h1 id="heading-15"></h1>
+<h2 id="jupyter-notebook-실행하기">Jupyter notebook 실행하기</h2>
+<p>이제 기본적인 설치가 완료되었습니다.
+anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
+<p>일반 터미널 창에서 아래와 같이 명령어를 실행합니다.</p>
+<pre><code>jupyter notebook
+</code></pre>
+<h1 id="heading-16"></h1>
+<h5 id="linux-의-경우">(linux 의 경우)</h5>
+<p>web browser 설치 및 디스플레이 셋팅이 DISPLAY=ip:0.0으로 설정되어야 합니다. root로 실행할 경우 &ndash;allow-root 옵션을 넣어야 합니다.</p>
+<pre><code>jupyter notebook --allow-root
+</code></pre>
+<h2 id="heading-17">.</h2>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">검색</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="검색">
+                <input type="hidden" name="sitesearch" value="https://starcell.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">카테고리</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/ai">ai (2)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/ccrs">ccrs (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/deep-learning">deep-learning (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/fstack">fstack (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/ncluster">ncluster (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/starting">starting (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/system">system (3)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/%ec%9d%bc%eb%b0%98">일반 (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">태그</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li>
+                <a href="/tags/ai"><i class="fas fa-tags"></i> ai</a>
+            </li>
+            
+            <li>
+                <a href="/tags/anaconda"><i class="fas fa-tags"></i> anaconda</a>
+            </li>
+            
+            <li>
+                <a href="/tags/bench"><i class="fas fa-tags"></i> bench</a>
+            </li>
+            
+            <li>
+                <a href="/tags/benchmark"><i class="fas fa-tags"></i> benchmark</a>
+            </li>
+            
+            <li>
+                <a href="/tags/cluster"><i class="fas fa-tags"></i> cluster</a>
+            </li>
+            
+            <li>
+                <a href="/tags/coding"><i class="fas fa-tags"></i> coding</a>
+            </li>
+            
+            <li>
+                <a href="/tags/computer"><i class="fas fa-tags"></i> computer</a>
+            </li>
+            
+            <li>
+                <a href="/tags/container"><i class="fas fa-tags"></i> container</a>
+            </li>
+            
+            <li>
+                <a href="/tags/deep-learning"><i class="fas fa-tags"></i> deep-learning</a>
+            </li>
+            
+            <li>
+                <a href="/tags/gpu"><i class="fas fa-tags"></i> gpu</a>
+            </li>
+            
+            <li>
+                <a href="/tags/gpu-%eb%b9%84%ea%b5%90"><i class="fas fa-tags"></i> gpu-비교</a>
+            </li>
+            
+            <li>
+                <a href="/tags/hardware"><i class="fas fa-tags"></i> hardware</a>
+            </li>
+            
+            <li>
+                <a href="/tags/image"><i class="fas fa-tags"></i> image</a>
+            </li>
+            
+            <li>
+                <a href="/tags/intel"><i class="fas fa-tags"></i> intel</a>
+            </li>
+            
+            <li>
+                <a href="/tags/keras"><i class="fas fa-tags"></i> keras</a>
+            </li>
+            
+            <li>
+                <a href="/tags/kubernetes"><i class="fas fa-tags"></i> kubernetes</a>
+            </li>
+            
+            <li>
+                <a href="/tags/machine-learning"><i class="fas fa-tags"></i> machine-learning</a>
+            </li>
+            
+            <li>
+                <a href="/tags/ml"><i class="fas fa-tags"></i> ml</a>
+            </li>
+            
+            <li>
+                <a href="/tags/nuc"><i class="fas fa-tags"></i> nuc</a>
+            </li>
+            
+            <li>
+                <a href="/tags/pc"><i class="fas fa-tags"></i> pc</a>
+            </li>
+            
+            <li>
+                <a href="/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li>
+                <a href="/tags/python"><i class="fas fa-tags"></i> python</a>
+            </li>
+            
+            <li>
+                <a href="/tags/rtx-2080"><i class="fas fa-tags"></i> rtx-2080</a>
+            </li>
+            
+            <li>
+                <a href="/tags/rtx-3080"><i class="fas fa-tags"></i> rtx-3080</a>
+            </li>
+            
+            <li>
+                <a href="/tags/rtx-3090"><i class="fas fa-tags"></i> rtx-3090</a>
+            </li>
+            
+            <li>
+                <a href="/tags/system"><i class="fas fa-tags"></i> system</a>
+            </li>
+            
+            <li>
+                <a href="/tags/tensorflow"><i class="fas fa-tags"></i> tensorflow</a>
+            </li>
+            
+            <li>
+                <a href="/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+            <li>
+                <a href="/tags/titan-rtx"><i class="fas fa-tags"></i> titan-rtx</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ea%b5%90%ec%9c%a1"><i class="fas fa-tags"></i> 교육</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ea%b8%b0%ea%b3%84%ed%95%99%ec%8a%b5"><i class="fas fa-tags"></i> 기계학습</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%eb%94%a5%eb%9f%ac%eb%8b%9d"><i class="fas fa-tags"></i> 딥러닝</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d"><i class="fas fa-tags"></i> 머신러닝</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%eb%b2%a4%ec%b9%98%eb%a7%88%ed%81%ac"><i class="fas fa-tags"></i> 벤치마크</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5"><i class="fas fa-tags"></i> 인공지능</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ec%bd%94%eb%94%a9"><i class="fas fa-tags"></i> 코딩</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>이 사이트에 대하여</h4>
+
+            <p>(주)스타셀/Starcell Inc.</p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>최근게시물</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/24/anaconda/">
+                          
+                            <img src="/img/banners/banner-3.jpg" class="img-responsive" alt="머신러닝 실습환경 - Anaconda">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/24/anaconda/">머신러닝 실습환경 - Anaconda</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">
+                          
+                            <img src="/img/banners/banner-2.jpg" class="img-responsive" alt="GPU 벤치마크">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">GPU 벤치마크</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/15/gpu/">
+                          
+                            <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="GEFORCE RTX 3090 AI BLOWER">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/15/gpu/">GEFORCE RTX 3090 AI BLOWER</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>주소</h4>
+
+            <p class="text-uppercase"><strong>Starcell Inc.</strong>
+        <br>#415, 보타닉파크타워3
+        <br>(#415, Botanic Park Tower 3)
+        <br>11, 마곡중앙6로, 강서구
+        <br>(11, Magokjungang 6-ro, Ganseo-gu)
+        <br>서울(Seoul)
+        <br>
+        <strong>Korea</strong>
+      </p>
+      
+
+            <a href="/contact" class="btn btn-small btn-template-main">연락처</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2004 - 2021, (주)스타셀/Starcell Inc.; all rights reserved.</p>
+            
+            <p class="pull-right">
+              템플릿 <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              
+
+              Hugo에 의한 생성 <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-191461979-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyD4HHCjtWwC0QR7ymSqJUOzwWuFfaDU7Ck&v=3.exp"></script>
+
+<script src="/js/hpneo.gmaps.js"></script>
+<script src="/js/gmaps.init.js"></script>
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>
