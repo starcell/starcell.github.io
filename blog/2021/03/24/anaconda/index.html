@@ -238,18 +238,16 @@ PIP(Python Package Index)로 이러한 요구를 충족하기 어렵기 때문�
 <pre><code>py37tf20   &gt; Python 3.7.3 + TensorFlow(2.0.0) 설치
 py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
 </code></pre>
-<h1 id="heading"></h1>
 <h4 id="--py37tf20">- py37tf20</h4>
 <ul>
 <li>TensorFlow 2.0.0이 가장 최신 버전이므로 앞으로 새로 작성하는 코드는 이 environment에서 작성이 되어야 합니다.</li>
 <li>TensorFlow 2.0.0에서는 syntax가 많이 변경 되었기에 TensorFlow 1.* 환경에서 작성된 코드를 바로 사용할 수 없습니다.</li>
 </ul>
-<h1 id="heading-1"></h1>
 <h4 id="--py37tf114">- py37tf114</h4>
 <ul>
 <li>예전에 작성된 코드나 책 예제코드를 구동할 때 필요합니다.</li>
 </ul>
-<h1 id="heading-2"></h1>
+<hr>
 <h3 id="유의사항">유의사항</h3>
 <ul>
 <li>이 문서는 Windows에서 설치한다고 가정하고 작성되었습니다.  Linux, macOS의 경우에도 설치방법이 대동소이 합니다.</li>
@@ -275,13 +273,11 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
 
 * 설치가 완료되면 컴퓨터를 재부팅합니다.
 </code></pre>
-<h1 id="heading-3"></h1>
-<h5 id="설치된-anaconda에서-아래에-있는-3가지-software를-주로-사용합니다">설치된 Anaconda에서 아래에 있는 3가지 Software를 주로 사용합니다.</h5>
+<h5 id="설치된-anaconda에서-아래에-있는-3가지-software를-주로-사용합니다">설치된 Anaconda에서 아래에 있는 3가지 Software를 주로 사용합니다</h5>
 <pre><code>* Jupyter Notebook : 파이썬 코딩과 통계, data science 등의 실제 프로그래밍 작업합니다.
 * Anaconda Prompt : environment, library(package)를 설치, 변경, 삭제등 관리는 하는 터미널입니다.
 * Anaconda Navigator : Anaconda Prompt의 작업을 GUI를 통하여 편리하게 확인 및 실행합니다.
 </code></pre>
-<h1 id="heading-4"></h1>
 <h4 id="2-설치확인">2) 설치확인</h4>
 <h5 id="anaconda-prompt-실행하기">Anaconda Prompt 실행하기</h5>
 <pre><code>* Windows 메뉴에서 Anaconda Prompt를 선택하면 Anaconda Prompt를 위한 터미널이 뜹니다.
@@ -289,21 +285,18 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
 
 * 프롬프트 앞 부분에 보이는 (base)는 기본 제공되는 환경이며, &quot;base&quot;란 environment에 있음을 알려줍니다.
 </code></pre>
-<h1 id="heading-5"></h1>
 <h5 id="anaconda-prompt-터미널에서-python-간단명령어-실행하기">Anaconda Prompt 터미널에서 Python 간단명령어 실행하기</h5>
 <pre><code> &gt; where python (설치된 디렉토리를 표시합니다.)
  &gt; python -V 혹은, python --version 
    (해당 environment에 설치된 Python의 버전을 보여줍니다 3.7.3으로 표시됩니다.)
 </code></pre>
-<h1 id="heading-6"></h1>
 <h5 id="간단한-python-코드-테스트하기">간단한 Python 코드 테스트하기</h5>
 <pre><code>* 터미널에서 python을 입력하면 Python 프롬프트 모드로 변경됩니다.
 * Python 프롬프트(&gt;&gt;&gt; 모양)에서 시험삼아 1+1을 실행해 보세요.
 * Ctrl-d, Ctrl-z, 또는 exit() &amp; enter를 사용하면 Python을 종료할 수 있습니다.
 </code></pre>
-<h1 id="heading-7"></h1>
 <h4 id="3-실습환경environment-사전준비-작업">3) 실습환경(Environment) 사전준비 작업</h4>
-<h5 id="anaconda-prompt-터미널의-base-환경에서-다음의-명령어를-순서대로-실행해-봅니다">Anaconda Prompt 터미널의 (base) 환경에서 다음의 명령어를 순서대로 실행해 봅니다.</h5>
+<h5 id="anaconda-prompt-터미널의-base-환경에서-다음의-명령어를-순서대로-실행해-봅니다">Anaconda Prompt 터미널의 (base) 환경에서 다음의 명령어를 순서대로 실행해 봅니다</h5>
 <pre><code> &gt; conda --version (conda의 현재 버전을 보여줍니다.)
  &gt; conda update conda (최신 conda버전으로 update 합니다. 다소 시간이 걸릴 수 있습니다.)
  &gt; conda --version (updated conda의 버전을 보여줍니다.)
@@ -312,9 +305,8 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; conda install nb_conda
    (Jupyter Notebook에서 새로 만든 environment를 표시하기 위해 필요한 작업입니다.)
 </code></pre>
-<h1 id="heading-8"></h1>
 <h4 id="4-environment-py37tf20-생성하기">4) Environment py37tf20 생성하기</h4>
-<h5 id="anaconda-prompt-터미널의-base-환경에서-아래와-같이-실행합니다">Anaconda Prompt 터미널의 base 환경에서 아래와 같이 실행합니다.</h5>
+<h5 id="anaconda-prompt-터미널의-base-환경에서-아래와-같이-실행합니다">Anaconda Prompt 터미널의 base 환경에서 아래와 같이 실행합니다</h5>
 <pre><code> &gt; conda create --name py37tf20 python=3.7 
   (Python 3.7.3이 설치된 py37tf20 새로운 환경을 만들어집니다.)
 
@@ -327,8 +319,7 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; conda activate py37tf20 
   (base 환경에서 py37tf20 환경으로 변경됩니다. 프롬프트 앞부분도 py37tf20 으로 표시됩니다.)
 </code></pre>
-<h1 id="heading-9"></h1>
-<h5 id="py37tf20-환경에서-아래와-같이-실행합니다">py37tf20 환경에서 아래와 같이 실행합니다.</h5>
+<h5 id="py37tf20-환경에서-아래와-같이-실행합니다">py37tf20 환경에서 아래와 같이 실행합니다</h5>
 <pre><code> &gt; where python 
   (이젠 py37tf20 환경에서의 Python 위치를 보여줌)
 
@@ -341,7 +332,6 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; pip install --upgrade keras
   (Keras 최신 버전 설치)
 </code></pre>
-<h1 id="heading-10"></h1>
 <h5 id="간단한-python-코드-실행하기">간단한 Python 코드 실행하기</h5>
 <pre><code> &gt; python (py37tf20 환경에서 Python 프롬프트 진입(&gt;&gt;&gt;))
   &gt;&gt;&gt; import tensorflow as tf
@@ -358,9 +348,8 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; conda deactivate 
    (py37tf20 환경에서 기본 base 환경으로 복귀합니다.)
 </code></pre>
-<h1 id="heading-11"></h1>
 <h4 id="5-environment-py37tf114-추가-생성하기">5) Environment py37tf114 추가 생성하기</h4>
-<h5 id="anaconda-prompt-터미널의-base-환경에서-아래와-같이-실행합니다-1">Anaconda Prompt 터미널의 base 환경에서 아래와 같이 실행합니다.</h5>
+<h5 id="anacona-prompt-터미널의-base환경에서-아래와-같이-실행합니다">Anacona Prompt 터미널의 base환경에서 아래와 같이 실행합니다</h5>
 <pre><code> &gt; conda create --name py37tf114 python=3.7
  &gt; conda env list
   (이제는 base, py37tf20, py37tf114 3개가 나타납니다.)
@@ -368,8 +357,7 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; where python
  &gt; conda activate py37tf114
 </code></pre>
-<h1 id="heading-12"></h1>
-<h5 id="py37tf114-환경에서-아래와-같이-실행합니다">py37tf114 환경에서 아래와 같이 실행합니다.</h5>
+<h5 id="py37tf114-환경에서-아래와-같이-실행합니다">py37tf114 환경에서 아래와 같이 실행합니다</h5>
 <pre><code> &gt; where python 
   (이젠 py37tf114 환경에서의 Python 위치를 보여줌)
 
@@ -385,8 +373,7 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; pip install numpy==1.16.5
   (낮은 버전으로 다시 설치합니다.)
 </code></pre>
-<h1 id="heading-13"></h1>
-<h5 id="간단한-python-코드-실행하기-1">간단한 Python 코드 실행하기</h5>
+<h5 id="간단한-python-코드를-실행해-봅니다">간단한 Python 코드를 실행해 봅니다</h5>
 <pre><code> &gt; python (py37tf114 환경에서 Python 프롬프트 진입(&gt;&gt;&gt;))
   &gt;&gt;&gt; import tensorflow as tf
       tf.__version__
@@ -398,18 +385,17 @@ py37tf114  &gt; Python 3.7.3 + TensorFlow(1.14.0) 설치
  &gt; conda deactivate 
    (py37tf114 환경에서 기본 base 환경으로 복귀합니다.)
 </code></pre>
-<h5 id="생성한-환경을-삭제할-때는-base-환경에서-아래-명령어를-실행합니다">생성한 환경을 삭제할 때는 base 환경에서 아래 명령어를 실행합니다.</h5>
+<h5 id="생성한-환경을-삭제할-때는-base-환경에서-아래-명령어를-실행합니다">생성한 환경을 삭제할 때는 base 환경에서 아래 명령어를 실행합니다</h5>
 <pre><code> &gt; conda env remove --name '환경이름'
 </code></pre>
-<h1 id="heading-14"></h1>
+<hr>
 <h2 id="jupyter-notebook-실행하기">Jupyter notebook 실행하기</h2>
 <p>이제 기본적인 설치가 완료되었습니다.
 anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
 <p>일반 터미널 창에서 아래와 같이 명령어를 실행합니다.</p>
 <pre><code>jupyter notebook
 </code></pre>
-<h1 id="heading-15"></h1>
-<h5 id="linux-의-경우">(linux 의 경우)</h5>
+<h3 id="참고-linux의-경우">참고. linux의 경우</h3>
 <p>web browser 설치 및 디스플레이 셋팅이 DISPLAY=ip:0.0으로 설정되어야 합니다. root로 실행할 경우 &ndash;allow-root 옵션을 넣어야 합니다.</p>
 <pre><code>jupyter notebook --allow-root
 </code></pre>
@@ -491,7 +477,7 @@ anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
             </li>
             
             <li>
-                <a href="/categories/system">system (3)</a>
+                <a href="/categories/system">system (4)</a>
             </li>
             
             <li>
@@ -589,6 +575,10 @@ anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
             </li>
             
             <li>
+                <a href="/tags/linux"><i class="fas fa-tags"></i> linux</a>
+            </li>
+            
+            <li>
                 <a href="/tags/machine-learning"><i class="fas fa-tags"></i> machine-learning</a>
             </li>
             
@@ -638,6 +628,22 @@ anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
             
             <li>
                 <a href="/tags/titan-rtx"><i class="fas fa-tags"></i> titan-rtx</a>
+            </li>
+            
+            <li>
+                <a href="/tags/ubuntu"><i class="fas fa-tags"></i> ubuntu</a>
+            </li>
+            
+            <li>
+                <a href="/tags/windows"><i class="fas fa-tags"></i> windows</a>
+            </li>
+            
+            <li>
+                <a href="/tags/windows-home"><i class="fas fa-tags"></i> windows-home</a>
+            </li>
+            
+            <li>
+                <a href="/tags/wsl2"><i class="fas fa-tags"></i> wsl2</a>
             </li>
             
             <li>
@@ -717,6 +723,19 @@ anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/25/wsl2/">
+                          
+                            <img src="/img/banners/banner-1.jpg" class="img-responsive" alt="원도우10 Home - wsl2 설치">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/25/wsl2/">원도우10 Home - wsl2 설치</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
                         <a href="https://starcell.github.io/blog/2021/03/24/anaconda/">
                           
                             <img src="/img/banners/banner-3.jpg" class="img-responsive" alt="머신러닝 실습환경 - Anaconda">
@@ -738,19 +757,6 @@ anaconda에는 jupyter notebook이 기본으로 설치되어 있습니다.</p>
                     </div>
                     <div class="name same-height-always">
                         <h5><a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">GPU 벤치마크</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="https://starcell.github.io/blog/2021/03/15/gpu/">
-                          
-                            <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="GEFORCE RTX 3090 AI BLOWER">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="https://starcell.github.io/blog/2021/03/15/gpu/">GEFORCE RTX 3090 AI BLOWER</a></h5>
                     </div>
                 </div>
                 

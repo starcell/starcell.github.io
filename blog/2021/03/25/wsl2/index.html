@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>원도우10 Home - wsl2 설치</title>
+  <meta name="author" content="starcell" />
+  
+  
+  
+  
+  <meta name="keywords" content="딥러닝, 인공지능, 코딩, deep learning, AI, container, docker, kubernetes, GPU, windows, linux, ubuntu, windows Home, wsl2">
+  
+  
+  <meta name="description" content="Site template made by devcows using hugo">
+
+  <meta name="generator" content="Hugo 0.81.0" />
+
+  
+  
+  <link href='//fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+  
+  <link href="/css/owl.carousel.css" rel="stylesheet">
+  <link href="/css/owl.theme.css" rel="stylesheet">
+
+  
+  <link href="/css/custom.css" rel="stylesheet">
+
+  
+  <link rel="alternate" href="https://starcell.github.io/index.xml" type="application/rss+xml" title="Deepcell 딥러닝 페이지">
+
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:locale" content="ko">
+  <meta property="og:site_name" content="Deepcell 딥러닝 페이지">
+  <meta property="og:title" content="원도우10 Home - wsl2 설치">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://starcell.github.io/blog/2021/03/25/wsl2/" />
+  <meta property="og:description" content="Site template made by devcows using hugo">
+  <meta property="og:image" content="https://starcell.github.io/img/banners/banner-1.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  
+  
+  
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="750">
+  
+  
+  <meta property="og:updated_time" content="2021-03-25T17:03:46&#43;0900">
+  
+    
+    
+    <meta property="article:section" content="system">
+    <meta property="article:tag" content="windows">
+    <meta property="article:tag" content="linux">
+    <meta property="article:tag" content="ubuntu">
+    <meta property="article:tag" content="windows Home">
+    <meta property="article:tag" content="wsl2">
+    
+    
+    <meta property="article:published_time" content="2021-03-25T17:03:46&#43;0900">
+    <meta property="article:modified_time" content="2021-03-25T17:03:46&#43;0900">
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GoHugoIO">
+  <meta name="twitter:title" content="원도우10 Home - wsl2 설치">
+  
+  <meta name="twitter:image" content="https://starcell.github.io/img/banners/banner-1.jpg">
+  
+  <meta name="twitter:description" content="Site template made by devcows using hugo">
+  
+
+  
+  
+  <script src="/js/medium-zoom.js"></script>
+
+  
+  
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    <img src="/img/deepcell.png" alt="원도우10 Home - wsl2 설치 logo" class="hidden-xs hidden-sm">
+                    <img src="/img/deepcell.png" alt="원도우10 Home - wsl2 설치 logo" class="visible-xs visible-sm">
+                    <span class="sr-only">원도우10 Home - wsl2 설치 - 홈으로</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">네비게이션전환</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown active">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/system/">System</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/ai/">AI</a>
+                    
+                  </li>
+                  
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">    
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>원도우10 Home - wsl2 설치</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            작성자 <a href="#">starcell</a>
+                             | 
+                            2021. 3. 25.
+                          </p>
+                        
+
+                        <div id="post-content">
+                          <h2 id="wsl-이란">WSL 이란?</h2>
+<p>WSL (Windows Subsystem for Linux)은 기존 Windows 데스크톱 및 앱과 함께 Windows에서 직접 기본 Linux 명령줄 도구를 실행할 수 있도록 하는 Windows 10의 기능입니다.</p>
+<p>주로 개발자, 특히 웹 개발자, 오픈 소스 프로젝트에서 작업 하는 도구 또는 Linux server 환경에 배포 하는 도구입니다. WSL은 Bash, 일반적인 Linux 도구 (sed, awk) 및 Linux 기반 프레임 워크 (Ruby, Python)를 Windows 통해 활용할 수 있습니다.</p>
+<p>또한, 전체 가상 머신보다 적은 리소스(CPU, 메모리 및 스토리지)를 사용하고, Linux 내에서 Windows 파일에 편리하게 엑세스할 수 있는 것이 장점입니다.</p>
+<p>윈도우 버전 Enterprise, Pro, Home 중 &ldquo;HOME&rdquo; 버전의 경우 WSL 1 사용이 불가능 했습니다. 그렇지만, 빌드 19603부터 WSL 2를 지원하게 되었습니다.</p>
+<hr>
+<h3 id="요구-사항">요구 사항</h3>
+<ul>
+<li>Window 10 계열 x64 시스템</li>
+<li>OS 버전 1903 이상, 빌드 18362 이상 (Home버전의 경우 빌드 19603부터)</li>
+<li>Hyper-V 필요</li>
+</ul>
+<h4 id="1-사전-확인-및-변경">1) 사전 확인 및 변경</h4>
+<p>&ldquo;관리자 권한&quot;의 PowerShell 터미널에서 다음 명령을 실행합니다</p>
+<pre><code>winver
+</code></pre>
+
+<img src="/img/blog/wsl/1.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/1.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(Windows10 Home 버전 20H2, OS 빌드 19042.746)</p>
+<hr>
+<pre><code>msinfo32
+</code></pre>
+
+<img src="/img/blog/wsl/2.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/2.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(msinfo32 결과값. 10.0.19042 빌드 19042)<br>
+Windows Enterprise, Pro는 항목이 다르게 표현될 수 있습니다.</p>
+<hr>
+<p>msinfo32 메뉴 중 제일 하단 Hyper-V 관련된 모든 항목이 &ldquo;예&rdquo; 상태로 있어야 합니다.</p>
+
+<img src="/img/blog/wsl/3.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/3.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(&ldquo;Hyper-V 펌웨어에 가상화 사용&rdquo;)</p>
+<hr>
+<h4 id="2-컴퓨터-cmos-셋팅">2) 컴퓨터 CMOS 셋팅</h4>
+<p>컴퓨터를 재부팅하여 바이오스에 진입합니다.<br>
+CPU 혹은, Advanced 메뉴에서 &ldquo;인텔 CPU 가상화 기술&rdquo; 사용(Enabled)으로 변경합니다.<br>
+한글명: 인텔 가상화 기술 / 영문명: Intel (VMX) Virtuallization Technology<br>
+(가상화 기술 사용은 각각의 메인보드마다 다르기 때문에, 메인보드 매뉴얼을 참조하시길 바랍니다.)</p>
+
+<img src="/img/blog/wsl/4.jpg" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/4.jpg" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(&ldquo;인텔 가상화 기술 사용으로 변경&rdquo;)</p>
+<hr>
+<p>msinfo32 항목 중 &ldquo;Hyper-V - 펌웨어에 가상화 사용 - 예&rdquo; 로 변경되었는지 확인합니다.</p>
+
+<img src="/img/blog/wsl/5.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/5.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(&ldquo;Hyper-V - 펌웨어에 가상화 사용&rdquo;)</p>
+<hr>
+<h4 id="3-wsl2-설치">3) WSL2 설치</h4>
+<p>(모든 앱 설치와 명령어 실행은 관리자 권한으로 진행해야 합니다.)<br>
+관리자 권한의 Powershell 터미널에 아래 두 개의 명령어를 실행하고 재부팅합니다.</p>
+<pre><code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+</code></pre>
+<p>&ldquo;Linux용 Windows 하위 시스템&rdquo; 옵션 활성화</p>
+<pre><code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+</code></pre>
+<p>&ldquo;Virtual Machine 플랫폼&rdquo; 옵션 활성화</p>
+
+<img src="/img/blog/wsl/6.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/6.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<hr>
+<p>MS 스토어에서 원도우 터미널 설치합니다.</p>
+
+<img src="/img/blog/wsl/7.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/7.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<hr>
+<p>리눅스 커널 업데이트 패키지 
+<a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi" target="_blank">다운로드</a>하고 설치를 합니다.</p>
+
+<img src="/img/blog/wsl/8.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/8.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(리눅스 커널 업데이트 패키지 설치하는 과정입니다.)</p>
+<hr>
+<p>WSL 2를 기본 버전으로 설정합니다.</p>
+<pre><code>wsl --set-default-version 2
+</code></pre>
+
+<img src="/img/blog/wsl/9.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/9.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<hr>
+<p>리눅스 배포판(Ubuntu 18.04) 설치합니다.</p>
+<p>
+<a href="https://aka.ms/wslstore" target="_blank">WSL 지원 리눅스 배포판 리스트</a><br>
+
+<a href="https://www.microsoft.com/store/apps/9N9TNGVNDL3Q" target="_blank">Ubuntu 18.04 LTS</a></p>
+
+<img src="/img/blog/wsl/10.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/10.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(MS 스토어에서 검색 후, &ldquo;Ubuntu 18.04 LTS&rdquo; 설치합니다.)</p>
+<hr>
+<h4 id="wsl2-실행-1">WSL2 실행 1</h4>
+<p>설치완료 후 처음 &ldquo;Ubuntu 18.04 LTS&rdquo; 실행할 때 시스템에 따라 1~10분 정도 시간이 소요됩니다.<br>
+계정 및 비밀번호를 설정합니다.</p>
+
+<img src="/img/blog/wsl/11.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/11.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(설치가 완료되면 실행할 수 있습니다.)</p>
+<hr>
+<h4 id="wsl2-실행-2">WSL2 실행 2</h4>
+<p>원도우 터미널(관리자 권한)에서 현재 설치된 리눅스 배포판과 WSL 버전을 확인합니다.</p>
+<pre><code>wsl --list --verbose
+wsl -l -v
+</code></pre>
+<p>지정한 리눅스 배포판으로 실행해 봅니다. (현재 우분투 18.04, WSL 2 버전)</p>
+<pre><code>wsl
+</code></pre>
+
+<img src="/img/blog/wsl/12.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/12.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+
+<img src="/img/blog/wsl/13.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/13.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+
+<img src="/img/blog/wsl/14.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/14.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(커널 5.4.72, WSL2로 실행하고 있습니다.)</p>
+<hr>
+<h3 id="기타내용">기타내용</h3>
+<p>만약 커널 버전이 낮다면 &ldquo;커널 업데이트 패키지&quot;가 제대로 설치되지 않은 경우입니다.</p>
+<p>윈도우 업데이트 고급옵션에서 설정 변경 -&gt; 다른 MS 제품에 대한 업데이트 받기 체크</p>
+<p>이 후 &ldquo;커널 업데이트 패키지&rdquo; 재실행 해서 업데이트 설치 진행하면 됩니다.</p>
+
+<img src="/img/blog/wsl/15.png" 
+  alt="원도우10 Home - wsl2 설치 /img/blog/wsl/15.png" 
+  width="80%" 
+  data-zoomable="Zoom">
+
+<script>
+  mediumZoom('[data-zoomable]')
+</script>
+
+<p>(다른 MS 제품에 대한 업데이트 받기 체크)</p>
+<hr>
+<h3 id="참조-사이트">참조 사이트</h3>
+<p>
+<a href="https://docs.microsoft.com/ko-kr/windows/wsl/install-win10#manual-installation-steps" target="_blank">WSL 설치 가이드</a></p>
+<p>
+<a href="www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10">WSL 관련 : How to Install WSL 2 on Windows 10</a></p>
+<p>
+<a href="www.zdnet.com/article/windows-10-tip-find-out-if-your-pc-can-run-hyper-v/">WSL 관련 : Find out if your PC can run Hyper-V</a></p>
+<p>
+<a href="www.lesstif.com/software-architect/wsl-2-windows-subsystem-for-linux-2-89555812.html">WSL 관련 :WSL 2 정식버전 사용하기</a></p>
+<p>
+<a href="www.docker.com/blog/docker-desktop-wsl-2-backport-update/">Docker 관련</a></p>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">검색</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="검색">
+                <input type="hidden" name="sitesearch" value="https://starcell.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">카테고리</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/ai">ai (3)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/ccrs">ccrs (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/deep-learning">deep-learning (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/fstack">fstack (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/ncluster">ncluster (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/starting">starting (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/system">system (4)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/%ec%9d%bc%eb%b0%98">일반 (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">태그</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li>
+                <a href="/tags/ai"><i class="fas fa-tags"></i> ai</a>
+            </li>
+            
+            <li>
+                <a href="/tags/anaconda"><i class="fas fa-tags"></i> anaconda</a>
+            </li>
+            
+            <li>
+                <a href="/tags/bench"><i class="fas fa-tags"></i> bench</a>
+            </li>
+            
+            <li>
+                <a href="/tags/benchmark"><i class="fas fa-tags"></i> benchmark</a>
+            </li>
+            
+            <li>
+                <a href="/tags/cluster"><i class="fas fa-tags"></i> cluster</a>
+            </li>
+            
+            <li>
+                <a href="/tags/coding"><i class="fas fa-tags"></i> coding</a>
+            </li>
+            
+            <li>
+                <a href="/tags/computer"><i class="fas fa-tags"></i> computer</a>
+            </li>
+            
+            <li>
+                <a href="/tags/container"><i class="fas fa-tags"></i> container</a>
+            </li>
+            
+            <li>
+                <a href="/tags/deep-learning"><i class="fas fa-tags"></i> deep-learning</a>
+            </li>
+            
+            <li>
+                <a href="/tags/dl"><i class="fas fa-tags"></i> dl</a>
+            </li>
+            
+            <li>
+                <a href="/tags/gpu"><i class="fas fa-tags"></i> gpu</a>
+            </li>
+            
+            <li>
+                <a href="/tags/gpu-%eb%b9%84%ea%b5%90"><i class="fas fa-tags"></i> gpu-비교</a>
+            </li>
+            
+            <li>
+                <a href="/tags/hardware"><i class="fas fa-tags"></i> hardware</a>
+            </li>
+            
+            <li>
+                <a href="/tags/image"><i class="fas fa-tags"></i> image</a>
+            </li>
+            
+            <li>
+                <a href="/tags/intel"><i class="fas fa-tags"></i> intel</a>
+            </li>
+            
+            <li>
+                <a href="/tags/keras"><i class="fas fa-tags"></i> keras</a>
+            </li>
+            
+            <li>
+                <a href="/tags/kubernetes"><i class="fas fa-tags"></i> kubernetes</a>
+            </li>
+            
+            <li>
+                <a href="/tags/linux"><i class="fas fa-tags"></i> linux</a>
+            </li>
+            
+            <li>
+                <a href="/tags/machine-learning"><i class="fas fa-tags"></i> machine-learning</a>
+            </li>
+            
+            <li>
+                <a href="/tags/ml"><i class="fas fa-tags"></i> ml</a>
+            </li>
+            
+            <li>
+                <a href="/tags/nuc"><i class="fas fa-tags"></i> nuc</a>
+            </li>
+            
+            <li>
+                <a href="/tags/pc"><i class="fas fa-tags"></i> pc</a>
+            </li>
+            
+            <li>
+                <a href="/tags/programming"><i class="fas fa-tags"></i> programming</a>
+            </li>
+            
+            <li>
+                <a href="/tags/python"><i class="fas fa-tags"></i> python</a>
+            </li>
+            
+            <li>
+                <a href="/tags/rtx-2080"><i class="fas fa-tags"></i> rtx-2080</a>
+            </li>
+            
+            <li>
+                <a href="/tags/rtx-3080"><i class="fas fa-tags"></i> rtx-3080</a>
+            </li>
+            
+            <li>
+                <a href="/tags/rtx-3090"><i class="fas fa-tags"></i> rtx-3090</a>
+            </li>
+            
+            <li>
+                <a href="/tags/system"><i class="fas fa-tags"></i> system</a>
+            </li>
+            
+            <li>
+                <a href="/tags/tensorflow"><i class="fas fa-tags"></i> tensorflow</a>
+            </li>
+            
+            <li>
+                <a href="/tags/theme"><i class="fas fa-tags"></i> theme</a>
+            </li>
+            
+            <li>
+                <a href="/tags/titan-rtx"><i class="fas fa-tags"></i> titan-rtx</a>
+            </li>
+            
+            <li>
+                <a href="/tags/ubuntu"><i class="fas fa-tags"></i> ubuntu</a>
+            </li>
+            
+            <li>
+                <a href="/tags/windows"><i class="fas fa-tags"></i> windows</a>
+            </li>
+            
+            <li>
+                <a href="/tags/windows-home"><i class="fas fa-tags"></i> windows-home</a>
+            </li>
+            
+            <li>
+                <a href="/tags/wsl2"><i class="fas fa-tags"></i> wsl2</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ea%b5%90%ec%9c%a1"><i class="fas fa-tags"></i> 교육</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ea%b8%b0%ea%b3%84%ed%95%99%ec%8a%b5"><i class="fas fa-tags"></i> 기계학습</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%eb%94%a5%eb%9f%ac%eb%8b%9d"><i class="fas fa-tags"></i> 딥러닝</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%eb%a8%b8%ec%8b%a0%eb%9f%ac%eb%8b%9d"><i class="fas fa-tags"></i> 머신러닝</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%eb%b2%a4%ec%b9%98%eb%a7%88%ed%81%ac"><i class="fas fa-tags"></i> 벤치마크</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5"><i class="fas fa-tags"></i> 인공지능</a>
+            </li>
+            
+            <li>
+                <a href="/tags/%ec%bd%94%eb%94%a9"><i class="fas fa-tags"></i> 코딩</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>이 사이트에 대하여</h4>
+
+            <p>(주)스타셀/Starcell Inc.</p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>최근게시물</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/25/wsl2/">
+                          
+                            <img src="/img/banners/banner-1.jpg" class="img-responsive" alt="원도우10 Home - wsl2 설치">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/25/wsl2/">원도우10 Home - wsl2 설치</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/24/anaconda/">
+                          
+                            <img src="/img/banners/banner-3.jpg" class="img-responsive" alt="머신러닝 실습환경 - Anaconda">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/24/anaconda/">머신러닝 실습환경 - Anaconda</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">
+                          
+                            <img src="/img/banners/banner-2.jpg" class="img-responsive" alt="GPU 벤치마크">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://starcell.github.io/blog/2021/03/16/gpu-benchmark/">GPU 벤치마크</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>주소</h4>
+
+            <p class="text-uppercase"><strong>Starcell Inc.</strong>
+        <br>#415, 보타닉파크타워3
+        <br>(#415, Botanic Park Tower 3)
+        <br>11, 마곡중앙6로, 강서구
+        <br>(11, Magokjungang 6-ro, Ganseo-gu)
+        <br>서울(Seoul)
+        <br>
+        <strong>Korea</strong>
+      </p>
+      
+
+            <a href="/contact" class="btn btn-small btn-template-main">연락처</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2004 - 2021, (주)스타셀/Starcell Inc.; all rights reserved.</p>
+            
+            <p class="pull-right">
+              템플릿 <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              
+
+              Hugo에 의한 생성 <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-191461979-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyD4HHCjtWwC0QR7ymSqJUOzwWuFfaDU7Ck&v=3.exp"></script>
+
+<script src="/js/hpneo.gmaps.js"></script>
+<script src="/js/gmaps.init.js"></script>
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>

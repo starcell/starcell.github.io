@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Deepcell 딥러닝 페이지</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 24 Mar 2021 17:03:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 17:03:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>원도우10 Home - wsl2 설치</title>
+      <link>https://starcell.github.io/blog/2021/03/25/wsl2/</link>
+      <pubDate>Thu, 25 Mar 2021 17:03:46 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/blog/2021/03/25/wsl2/</guid>
+      <description>WSL 이란? WSL (Windows Subsystem for Linux)은 기존 Windows 데스크톱 및 앱과 함께 Windows에서 직접 기본 Linux 명령줄 도구를 실행할 수 있도록 하는 Windows 10의 기능입니다.
+주로 개발자, 특히 웹 개발자, 오픈 소스 프로젝트에서 작업 하는 도구 또는 Linux server 환경에 배포 하는 도구입니다.</description>
+    </item>
+    
     <item>
       <title>머신러닝 실습환경 - Anaconda</title>
       <link>https://starcell.github.io/blog/2021/03/24/anaconda/</link>
