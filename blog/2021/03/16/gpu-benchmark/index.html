@@ -234,16 +234,16 @@
                         
 
                         <div id="post-content">
-                          <h1 id="딥러닝-위한-gpu-비교">딥러닝 위한 GPU 비교</h1>
+                          <h2 id="딥러닝-위한-gpu-비교">딥러닝 위한 GPU 비교</h2>
 <p>딥러닝용 GPU 벤치마크 자료가 있어서 정리해 봅니다. 딥러닝 시스템을 도입하려는 분들이 GPU를 비교하는데 도움이 되기를 바랍니다.</p>
-<h2 id="1-rtx-3090-vs-rtx-3080-vs-titan-rtx-vs-rtx-2080-ti-benchmarks-fp32-fp16">1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16)</h2>
+<h3 id="1-rtx-3090-vs-rtx-3080-vs-titan-rtx-vs-rtx-2080-ti-benchmarks-fp32-fp16">1. RTX 3090 vs. RTX 3080 vs. TITAN RTX vs. RTX 2080 Ti benchmarks (FP32, FP16)</h3>
 <p>미국의 GPU 서버, 워크스테이션 공급업체인 Bizon사에서 2020년 11월 20일에 발표한 자료입니다.
 원 글의 제목은 &ldquo;2020-2021년 딥러닝에 가장 좋은 GPU&quot;입니다. 아래 링크에 원문이 있습니다.<br>
 
 <a href="https://bizon-tech.com/blog/best-gpu-for-deep-learning-rtx-3090-vs-rtx-3080-vs-titan-rtx-vs-rtx-2080-ti" target="_blank">Bizon사 GPU 벤치마크</a></p>
 <p>간단히 요약해 보겠습니다.</p>
 <hr>
-<h3 id="벤치마크-환경">벤치마크 환경</h3>
+<h4 id="벤치마크-환경">벤치마크 환경</h4>
 <ul>
 <li>
 <p>Deep Learning Models:</p>
@@ -266,7 +266,7 @@
 </li>
 </ul>
 <hr>
-<h3 id="벤치마크-결과">벤치마크 결과</h3>
+<h4 id="벤치마크-결과">벤치마크 결과</h4>
 <hr>
 <p>fp32로 한 벤치마크 결과입니다.</p>
 
@@ -292,22 +292,22 @@
 </script>
 
 <p>이 결과를 보면 1GPU의 경우 역시 RTX 3090의 성능이 가장 우수한 것을 알 수 있습니다. 그러나 4GPU의 경우 RTX 3090의 성능이 선형적으로 향상되지 않는 것이 보입니다. 이것은 발열에 의한 성능 억제 또는 시스템의 I/O에서 병목이 원인이 될 수도 있을 것 같습니다. 이 보고서에는 이 원인에 대한 분석은 없습니다. 4GPU의 경우 RTX 2080 Ti 성능이 선형적으로 증가하여 RTX 3090과 비슷하게 나오는 것을 볼 수 있습니다.</p>
-<h2 id="2-nvidia-rtx-a6000-deep-learning-benchmarks">2. NVIDIA RTX A6000 Deep Learning Benchmarks</h2>
+<h3 id="2-nvidia-rtx-a6000-deep-learning-benchmarks">2. NVIDIA RTX A6000 Deep Learning Benchmarks</h3>
 <p>또 다른 GPU 벤치마크 보고서는 미국의 람다라는 회사에서 2021년 1월 4일에 발표한 자료입니다.<br>
 
 <a href="https://lambdalabs.com/blog/nvidia-rtx-a6000-benchmarks/" target="_blank">Lambda사 GPU 벤치마크</a><br>
 이 보고서는 RTX A6000 GPU 제품이 나오면서 다른 GPU와 비교해본 자료입니다. 참고로 RTX A6000은 쿼드로 계열로 그래픽용 GPU이며 워크스테이션이나 데스크탑용입니다. 물론 딥러닝에도 사용할 수 있습니다.</p>
 <hr>
-<h3 id="벤치마크-환경-1">벤치마크 환경</h3>
-<h4 id="pytorch-benchmark-software-stack">PyTorch benchmark software stack</h4>
+<h4 id="벤치마크-환경-1">벤치마크 환경</h4>
+<h5 id="pytorch-benchmark-software-stack">PyTorch benchmark software stack</h5>
 <p>NGC&rsquo;s PyTorch 20.10 docker image with Ubuntu 18.04, PyTorch 1.7.0a0+7036e91, CUDA 11.1.0, cuDNN 8.0.4, NVIDIA driver 460.27.04, and NVIDIA&rsquo;s optimized model implementations.</p>
 <p>Pre-ampere GPUs were benchmarked using NGC&rsquo;s PyTorch 20.01 docker image with Ubuntu 18.04, PyTorch 1.4.0a0+a5b4d78, CUDA 10.2.89, cuDNN 7.6.5, NVIDIA driver 440.33, and NVIDIA&rsquo;s optimized model implementations.</p>
-<h4 id="tensorflow-benchmark-software-stack">TensorFlow benchmark software stack</h4>
+<h5 id="tensorflow-benchmark-software-stack">TensorFlow benchmark software stack</h5>
 <p>The RTX A6000 was benchmarked using NGC&rsquo;s TensorFlow 20.10 docker image using Ubuntu 18.04, TensorFlow 1.15.4, CUDA 11.1.0, cuDNN 8.0.4, NVIDIA driver 455.32, and Google&rsquo;s official model implementations.</p>
 <p>The Tesla A100s, RTX 3090, and RTX 3080 were benchmarked using Ubuntu 18.04, TensorFlow 1.15.4, CUDA 11.1.0, cuDNN 8.0.4, NVIDIA driver 455.45.01, and Google&rsquo;s official model implementations.</p>
 <p>Pre-ampere GPUs were benchmarked using TensorFlow 1.15.3, CUDA 10.0, cuDNN 7.6.5, NVIDIA driver 440.33, and Google&rsquo;s official model implementations.</p>
 <hr>
-<h3 id="벤치마크-결과-1">벤치마크 결과</h3>
+<h4 id="벤치마크-결과-1">벤치마크 결과</h4>
 <hr>
 <p>PyTorch CNN 모델 트레이닝 벤치마크 결과입니다.</p>
 
@@ -400,7 +400,7 @@
             
             
             <li>
-                <a href="/categories/ai">ai (2)</a>
+                <a href="/categories/ai">ai (3)</a>
             </li>
             
             <li>
@@ -487,6 +487,10 @@
             
             <li>
                 <a href="/tags/deep-learning"><i class="fas fa-tags"></i> deep-learning</a>
+            </li>
+            
+            <li>
+                <a href="/tags/dl"><i class="fas fa-tags"></i> dl</a>
             </li>
             
             <li>

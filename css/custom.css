@@ -25,6 +25,12 @@ body {
   margin-right: auto;
 }
 
+* div#post-content > figure > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* font : Roboto는 영문 폰트, 한글을 지원하는 Noto로 수정 */
 /* buttons  */
 .btn {

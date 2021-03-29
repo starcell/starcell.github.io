@@ -6,7 +6,88 @@
     <description>Recent content in Tags on Deepcell 딥러닝 페이지</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 24 Mar 2021 17:03:46 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 15:30:08 +0900</lastBuildDate><atom:link href="https://starcell.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://starcell.github.io/tags/ai/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://starcell.github.io/tags/deep-learning/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DL</title>
+      <link>https://starcell.github.io/tags/dl/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/dl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://starcell.github.io/tags/machine-learning/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://starcell.github.io/tags/ml/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>기계학습</title>
+      <link>https://starcell.github.io/tags/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>딥러닝</title>
+      <link>https://starcell.github.io/tags/%EB%94%A5%EB%9F%AC%EB%8B%9D/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/%EB%94%A5%EB%9F%AC%EB%8B%9D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>머신러닝</title>
+      <link>https://starcell.github.io/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>인공지능</title>
+      <link>https://starcell.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
+      <pubDate>Fri, 26 Mar 2021 15:30:08 +0900</pubDate>
+      
+      <guid>https://starcell.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>anaconda</title>
       <link>https://starcell.github.io/tags/anaconda/</link>
@@ -31,15 +112,6 @@
       <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/container/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep learning</title>
-      <link>https://starcell.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -76,69 +148,6 @@
       <pubDate>Wed, 24 Mar 2021 17:03:46 +0900</pubDate>
       
       <guid>https://starcell.github.io/tags/tensorflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://starcell.github.io/tags/ai/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>https://starcell.github.io/tags/machine-learning/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ML</title>
-      <link>https://starcell.github.io/tags/ml/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>기계학습</title>
-      <link>https://starcell.github.io/tags/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>딥러닝</title>
-      <link>https://starcell.github.io/tags/%EB%94%A5%EB%9F%AC%EB%8B%9D/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/%EB%94%A5%EB%9F%AC%EB%8B%9D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>머신러닝</title>
-      <link>https://starcell.github.io/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>인공지능</title>
-      <link>https://starcell.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
-      <pubDate>Mon, 22 Mar 2021 13:30:08 +0900</pubDate>
-      
-      <guid>https://starcell.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
       <description></description>
     </item>
     
