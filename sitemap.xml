@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://starcell.github.io/blog/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/categories/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/docker/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/linux/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/categories/system/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/ubuntu/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/windows/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/tags/wsl2/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
+    <loc>https://starcell.github.io/blog/2021/03/26/wsl2-docker/</loc>
+    <lastmod>2021-03-26T17:03:46+09:00</lastmod>
+  </url><url>
     <loc>https://starcell.github.io/tags/ai/</loc>
     <lastmod>2021-03-26T15:30:08+09:00</lastmod>
   </url><url>
@@ -11,13 +44,7 @@
     <loc>https://starcell.github.io/ai/</loc>
     <lastmod>2021-03-26T15:30:08+09:00</lastmod>
   </url><url>
-    <loc>https://starcell.github.io/categories/</loc>
-    <lastmod>2021-03-26T15:30:08+09:00</lastmod>
-  </url><url>
     <loc>https://starcell.github.io/tags/deep-learning/</loc>
-    <lastmod>2021-03-26T15:30:08+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/</loc>
     <lastmod>2021-03-26T15:30:08+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/tags/dl/</loc>
@@ -27,9 +54,6 @@
     <lastmod>2021-03-26T15:30:08+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/tags/ml/</loc>
-    <lastmod>2021-03-26T15:30:08+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/tags/</loc>
     <lastmod>2021-03-26T15:30:08+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/tags/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/</loc>
@@ -47,25 +71,7 @@
     <loc>https://starcell.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
     <lastmod>2021-03-26T15:30:08+09:00</lastmod>
   </url><url>
-    <loc>https://starcell.github.io/blog/</loc>
-    <lastmod>2021-03-25T17:03:46+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/tags/linux/</loc>
-    <lastmod>2021-03-25T17:03:46+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/categories/system/</loc>
-    <lastmod>2021-03-25T17:03:46+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/tags/ubuntu/</loc>
-    <lastmod>2021-03-25T17:03:46+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/tags/windows/</loc>
-    <lastmod>2021-03-25T17:03:46+09:00</lastmod>
-  </url><url>
     <loc>https://starcell.github.io/tags/windows-home/</loc>
-    <lastmod>2021-03-25T17:03:46+09:00</lastmod>
-  </url><url>
-    <loc>https://starcell.github.io/tags/wsl2/</loc>
     <lastmod>2021-03-25T17:03:46+09:00</lastmod>
   </url><url>
     <loc>https://starcell.github.io/blog/2021/03/25/wsl2/</loc>
